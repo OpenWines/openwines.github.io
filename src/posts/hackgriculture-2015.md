@@ -12,3 +12,4 @@ au cours du hackaton ["Hackgriculture"](http://www.nantesvillecomestible.org/hac
 <blockquote class="twitter-tweet" lang="fr"><p>L&#39;art de vivre un hackathon : l&#39;équipe <a href="https://twitter.com/hashtag/openwine?src=hash">#openwine</a> en pleine action à <a href="https://twitter.com/hashtag/hackgriculture?src=hash">#hackgriculture</a> <a href="https://twitter.com/hashtag/nantes?src=hash">#nantes</a> <a href="http://t.co/nYnkXdc7kD">pic.twitter.com/nYnkXdc7kD</a></p>&mdash; Nantes Comestible (@Nantescomestibl) <a href="https://twitter.com/Nantescomestibl/status/579248229985955840">21 Mars 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Le reste de la journée a été résumé sur [Storify](https://storify.com/Libertic/restitution-hackgriculture) par [nantesvillecomestible.org](http://nantesvillecomestible.org)

@@ -1,3 +1,5 @@
+all: build run
+
 build: node_modules
 	@node build.js
 
