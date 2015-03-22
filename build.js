@@ -1,6 +1,6 @@
 /*
  * build.js
- * Copyright (C) 2015 ronan <ronan@cider>
+ * Copyright (C) 2015 ronan <ronan.guilloux@gmail.com>
  *
  * Distributed under terms of the MIT license.
  */

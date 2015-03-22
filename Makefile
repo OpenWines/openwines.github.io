@@ -1,11 +1,10 @@
 build: node_modules
-	node build.js
-	@echo "done."
+	@node build.js
 
 run: node_modules
-	node server.js
+	@node run.js
 
 node_modules: package.json
-	npm install
+	@npm install
 
 .PHONY: build run
