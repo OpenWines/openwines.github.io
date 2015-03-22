@@ -1,0 +1,20 @@
+{
+    "title": "OpenWines.eu"
+    "description": "Open-Data for Wines",
+    "metadata": {
+        "description": "My second, super-cool, Wintersmith-powered blog.",
+        "title": "My Wintersmith-Powered Blog"
+    },
+    "plugins": {
+        "metalsmith-markdown": {},
+        "metalsmith-permalinks": {
+            "pattern": ":title"
+        },
+        "metalsmith-templates": {
+            "directory": "./templates",
+            "engine": "jade"
+        }
+    },
+    "source": "./src",
+    "destination": "./",
+}

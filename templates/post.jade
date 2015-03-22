@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title= title
+    meta(name='description', content= description)
+  body
+    h1= title
+    time= date
+    ul
+      each val in collections.pages
+          li= val
+    div!= contents
