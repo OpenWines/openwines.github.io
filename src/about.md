@@ -16,7 +16,6 @@ template: page.jade
 
 Our comitment: All resources we deal with and services we build must remain free and open, forever.
 
-
 ## Working Group
 
 - Ronan Guilloux ([Github](https://github.com/ronanguilloux), [Twitter](https://twitter.com/arno_u_loginlux))
@@ -26,7 +25,7 @@ Our comitment: All resources we deal with and services we build must remain free
 - Martin Blanchart
 - Thomas Fougère ([Github](https://github.com/tomfougere))
 
-All group met in real life during the [HackGriculture](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/) that took place in Nantes, on March 21th, 2015. All are members of the [OpenWines Organization group on Github](https://github.com/OpenWines)
+The group first met in real life during the '[hackgriculture](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/)' _hackaton_ that took place in Nantes, on March 21th 2015 (see [related blog post](/hackgriculture-2015/)). All are members/contributors of the [OpenWines Organization group on Github](https://github.com/OpenWines).
 
 ## Social
 
