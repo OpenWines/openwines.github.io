@@ -2,13 +2,10 @@ nav
     ul
         li
             a(href="/") Home
-        li Pages
-            ul
-                each item in collections.pages
-                    li
-                        a(href="/#{item.path}")= item.title
-    ul
-        li Posts
+        each item in collections.pages
+            li
+                a(href="/#{item.path}")= item.title
+        li Recent Posts
             ul
                 each item in collections.posts
                     li

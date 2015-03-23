@@ -33,6 +33,8 @@ The group first met in real life during the '[hackgriculture](http://www.nantesv
 ## Social
 
 - Twitter: [@openwines](https://twitter.com/openwines)
+- Organization: [Trello](https://trello.com/openwines)
+- Open Source: [Github](https://github.com/openwines)
 - www : [openwines.eu](http://openwines.eu)
 - @ : [hello@openwines.eu](mailto:hello@openwines.eu)
 
