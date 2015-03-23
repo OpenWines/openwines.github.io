@@ -10,21 +10,32 @@ var Metalsmith  = require('metalsmith'),
     templates   = require('metalsmith-templates')
     collections = require('metalsmith-collections'),
     permalinks  = require('metalsmith-permalinks'),
+    tags        = require('metalsmith-tags'),
     dir         = __dirname,
     source      = './src',
     build       = './'
     ;
 
+    var metadata = {
+        title: 'OpenWines',
+        description: 'Open-Data for Wines'
+    };
+
 Metalsmith(dir)
     .use(markdown())
+    .use(tags({
+        handle:     'tags',             // yaml key for tag list in you pages
+        path:       '/tags/:tag.html',  // path for result pages
+        template:   '/page.jade',       // template to use for tag listing
+        sortBy:     'date',             // provide posts sorted by 'date' (optional)
+        reverse:    true                // sort direction (optional)
+    }))
     .use(collections({
         pages: {
-            pattern: source + '/*.md',
-            metadata: {
-                title: 'OpenWines',
-                name: 'Articles',
-                description: 'Open-Data for Wines'
-            }
+            metadata: metadata
+        },
+        posts: {
+            metadata: metadata
         }
     }))
     .use(permalinks({

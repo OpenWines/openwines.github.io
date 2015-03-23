@@ -2,6 +2,8 @@
 title: Hackgriculture 2015
 date: 2015-03-22
 template: post.jade
+tags: hackgriculture, hackaton, meet us
+collection: posts
 ---
 
 # (fr) OpenWines @ Hackgriculture 2015

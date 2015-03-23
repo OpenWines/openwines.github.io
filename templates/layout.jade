@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title= title
+        meta(name='description', content= description)
+    body
+        block top
+            include partials/top.jade
+        block aside
+            include partials/aside.jade
+        block content
+            section!= contents
+        block bottom
+            include partials/bottom.jade

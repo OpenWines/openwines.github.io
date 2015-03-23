@@ -1,7 +1,10 @@
 ---
 title: "About"
+date: 2015-03-22
 description: "About OpenWines"
 template: page.jade
+tags: meet us
+collection: pages
 ---
 
 
