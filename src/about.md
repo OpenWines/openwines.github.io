@@ -28,6 +28,13 @@ Our comitment: All resources we deal with and services we build must remain free
 
 All group met in real life during the [HackGriculture](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/) that took place in Nantes, on March 21th, 2015. All are members of the [OpenWines Organization group on Github](https://github.com/OpenWines)
 
+## Social
+
+- Twitter: [@openwines](https://twitter.com/openwines)
+- www : [openwines.eu](http://openwines.eu)
+- @ : [hello@openwines.eu](mailto:hello@openwines.eu)
+
+
 ## Let's have a drink together
 
 This group is **open**: Feel free to join us!
