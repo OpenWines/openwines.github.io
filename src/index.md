@@ -1,5 +1,5 @@
 ---
-description: "Open-Data for wine"
+description: "Open-Data, for vineyards, winegrowers and wines"
 date: 2015-03-22
 name: 'OpenWines.eu'
 template: index.jade
