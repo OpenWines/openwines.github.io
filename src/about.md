@@ -39,6 +39,8 @@ The group first met in real life during the '[hackgriculture](http://www.nantesv
 - www : [openwines.eu](http://openwines.eu)
 - @ : [hello@openwines.eu](mailto:hello@openwines.eu)
 
+Some of us speak fluently in english, italian and french: just ping us!
+
 ## Let's have a drink together
 
 This group is **open**: Feel free to join us!
