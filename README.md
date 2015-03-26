@@ -15,7 +15,7 @@ Here is a [good tutorial](http://www.robinthrift.com/posts/metalsmith-part-1-set
 make run
 ```
 
-# Static site weddesign
+# Static site's webdesign
 
-All assets come in `./src` ; it's [Jade](http://jade-lang.com)-based templated.
+All assets come in `./src` ; it uses [Jade](http://jade-lang.com) templates.
 
