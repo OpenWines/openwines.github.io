@@ -27,6 +27,8 @@ Our comitment: All resources we deal with and services we build must remain free
 - Thomas Gratier ([Github](https://github.com/ThomasG77), [Twitter](https://twitter.com/thomasg77))
 - Martin Blanchart
 - Thomas Fougère ([Github](https://github.com/tomfougere))
+- Anthony Faucogney ([Github](https://github.com/afaucogney), [Twitter](https://twitter.com/afaucogney])
+
 
 The group first met in real life during the '[hackgriculture](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/)' _hackaton_ that took place in Nantes, on March 21th 2015 (see [related blog post](/hackgriculture-2015/)). All are members/contributors of the [OpenWines Organization group on Github](https://github.com/OpenWines).
 
