@@ -3,7 +3,7 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-61114049-1', 'auto');
-ga('send', 'pageview');</script></head><body><header><h1>Data models</h1></header><nav><ul><li><a href="/">Home</a></li><li><a href="/data-models">Data models</a></li><li><a href="/about">About</a></li><li>Recent Posts<ul><li><a href="/hackgriculture-2015">Hackgriculture 2015</a></li></ul></li></ul></nav><section><h1 id="data-models">Data Models</h1>
+ga('send', 'pageview');</script></head><body><header><h1>Data models</h1></header><nav><ul><li><a href="/">Home</a></li><li><a href="/about">About</a></li><li><a href="/data-models">Data models</a></li><li><a href="/licence">Licence</a></li><li>Recent Posts<ul><li><a href="/hackgriculture-2015">Hackgriculture 2015</a></li></ul></li></ul></nav><section><h1 id="data-models">Data Models</h1>
 <p>Being a semantic data project, OpenWines needed to choose a model to describe the open data it exposes.</p>
 <p>Semantic Data Models are currently represented using various data schemas, such as RDFa, Microformats, Microdata, RDF/JSON or JSON-LD.</p>
 <p>Semantic data are eventually exposed via a <a href="http://www.w3.org/wiki/SparqlEndpoints">SPARQL endpoint</a></p>
@@ -15,8 +15,7 @@ ga('send', 'pageview');</script></head><body><header><h1>Data models</h1></heade
 </ul>
 <h2 id="the-json-ld-choice">The JSON-LD choice</h2>
 <ul>
-<li>JSON-LD is a JSON-based Serialization for Linked Data.</li>
-<li>JSON-LD represents graphs</li>
+<li>JSON-LD is a JSON-based Serialization for Linked Data. It represents graphs</li>
 <li>It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines. Since JSON-LD is 100% compatible with JSON, the large number of JSON parsers and libraries available today can be reused.</li>
 <li>It is also designed to be usable as RDF, if desired, for use with other Linked Data technologies like SPARQL.</li>
 <li>It is designed to be usable directly as JSON, with no knowledge of RDF.</li>
@@ -29,7 +28,7 @@ ga('send', 'pageview');</script></head><body><header><h1>Data models</h1></heade
 </ul>
 <p>(source: <a href="http://www.w3.org/TR/json-ld/">JSON-LD 1.0 W3C Recommendation</a>, 16 January 2014)</p>
 <p>Here is a sample JSON-LD document:</p>
-<p>These 2 samples sexposes 2 persons identities, using different vcabulary contexts as refs:</p>
+<p>These 2 samples exposes 2 persons identities, using different vcabulary contexts as refs:</p>
 <pre><code class="lang-json">{
     &quot;@context&quot;: &quot;http://schema.org&quot;,
     &quot;@type&quot;: &quot;Winery&quot;,
@@ -56,10 +55,20 @@ ga('send', 'pageview');</script></head><body><header><h1>Data models</h1></heade
         &quot;homepage&quot;: &quot;https://www.erobertparker.com&quot;
 }
 </code></pre>
-<h2 id="restful-service-interface-vs-sparql-endpoints">RESTFUL service interface Vs SPARQL endpoints</h2>
+<h2 id="restful-hateoas-api-vs-sparql-endpoints">RESTful, HATEOAS API Vs SPARQL endpoints</h2>
 <blockquote>
 <p>Just as public SQL endpoints are uncommon nowadays, public SPARQL endpoints are not expected to become widespread in the near future.
 This is because it is considerably more expensive to expose SQL or SPARQL endpoints than easier-to-optimize RESTful service interfaces.</p>
 </blockquote>
 <p>(source : <a href="http://www.markus-lanthaler.com/research/third-generation-web-apis-bridging-the-gap-between-rest-and-linked-data.pdf">Third Generation Web APIs - Bridging the Gap between REST and Linked Data</a>)</p>
+<p>Exposing a Semantic ressources using a SPARQL endpoint would mean setting up a not a widely spread kinfd of software. We assume choosing an Hypermedia-Driven Web API as a better endpoint, offering the possibilities of a Linked Data based information architecture.</p>
+<p>We a re actually studying the opportunity of an adoption of Hydra Core Vocabulary, a vocabulary for Hypermedia-Driven Web APIs.</p>
+<p>Some refs:</p>
+<ul>
+<li><a href="http://www.hydra-cg.com/">Hydra Community Group</a></li>
+<li><a href="https://www.w3.org/community/hydra/">The Hydra Community Group at W3C</a></li>
+<li><a href="http://www.w3.org/TR/json-ld/">The JSON-LD W3C Recommendation</a></li>
+<li><a href="http://www.hydra-cg.com/#tooling">The HYDRA tooling &amp; implementations</a></li>
+</ul>
+<p>Hydra architecture style is not a definitive choice: it&#39;s our actual intuition, and we&#39;re open to suggestions.</p>
 </section><footer><hr><ul><li>Discussions: <a href="https://groups.google.com/forum/#!forum/openwines">Google Group</a></li><li>Twitter: <a href="https://twitter.com/openwines">@openwines</a></li><li>Organization: <a href="https://trello.com/openwines">Trello</a></li><li>Open Source: <a href="https://github.com/openwines">Github</a></li><li>www : <a href="http://openwines.eu">openwines.eu</a></li><li>@ : <a href="mailto:hello@openwines.eu">hello@openwines.eu</a></li></ul></footer></body></html>

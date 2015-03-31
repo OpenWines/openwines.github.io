@@ -23,8 +23,7 @@ At the moment we are _thinking_ of:
 
 ## The JSON-LD choice
 
-- JSON-LD is a JSON-based Serialization for Linked Data.
-- JSON-LD represents graphs
+- JSON-LD is a JSON-based Serialization for Linked Data. It represents graphs
 - It is primarily intended to be a way to use Linked Data in Web-based programming environments, to build interoperable Web services, and to store Linked Data in JSON-based storage engines. Since JSON-LD is 100% compatible with JSON, the large number of JSON parsers and libraries available today can be reused.
 - It is also designed to be usable as RDF, if desired, for use with other Linked Data technologies like SPARQL.
 - It is designed to be usable directly as JSON, with no knowledge of RDF.
@@ -39,7 +38,7 @@ At the moment we are _thinking_ of:
 
 Here is a sample JSON-LD document:
 
-These 2 samples sexposes 2 persons identities, using different vcabulary contexts as refs:
+These 2 samples exposes 2 persons identities, using different vcabulary contexts as refs:
 
 ```json
 {
@@ -70,9 +69,22 @@ These 2 samples sexposes 2 persons identities, using different vcabulary context
 ```
 
 
-## RESTFUL service interface Vs SPARQL endpoints
+## RESTful, HATEOAS API Vs SPARQL endpoints
 
 > Just as public SQL endpoints are uncommon nowadays, public SPARQL endpoints are not expected to become widespread in the near future.
 > This is because it is considerably more expensive to expose SQL or SPARQL endpoints than easier-to-optimize RESTful service interfaces.
 
 (source : [Third Generation Web APIs - Bridging the Gap between REST and Linked Data](http://www.markus-lanthaler.com/research/third-generation-web-apis-bridging-the-gap-between-rest-and-linked-data.pdf))
+
+Exposing a Semantic ressources using a SPARQL endpoint would mean setting up a not a widely spread kinfd of software. We assume choosing an Hypermedia-Driven Web API as a better endpoint, offering the possibilities of a Linked Data based information architecture.
+
+We a re actually studying the opportunity of an adoption of Hydra Core Vocabulary, a vocabulary for Hypermedia-Driven Web APIs.
+
+Some refs:
+
+- [Hydra Community Group](http://www.hydra-cg.com/)
+- [The Hydra Community Group at W3C](https://www.w3.org/community/hydra/)
+- [The JSON-LD W3C Recommendation](http://www.w3.org/TR/json-ld/)
+- [The HYDRA tooling & implementations](http://www.hydra-cg.com/#tooling)
+
+Hydra architecture style is not a definitive choice: it's our actual intuition, and we're open to suggestions.
