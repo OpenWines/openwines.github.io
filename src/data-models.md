@@ -78,7 +78,7 @@ These 2 samples exposes 2 persons identities, using different vcabulary contexts
 
 Exposing a Semantic ressources using a SPARQL endpoint would mean setting up a not a widely spread kinfd of software. We assume choosing an Hypermedia-Driven Web API as a better endpoint, offering the possibilities of a Linked Data based information architecture.
 
-We a re actually studying the opportunity of an adoption of Hydra Core Vocabulary, a vocabulary for Hypermedia-Driven Web APIs.
+We are actually studying the opportunity of adopting Hydra Core Vocabulary as a vocabulary for an Hypermedia-Driven Web API.
 
 Some refs:
 
