@@ -23,7 +23,7 @@ We started OpenWines in march 2015: OpenWines is not a startup or a commercial i
 
 'Open' means free, available, reusable, redistribuable, interoperable, and open to contributions. Not only the data are free, but also the tools, softwares, schemas, design, illustration and documentation that come with them. This will remain as is, for ever, without conditions or limitations other than specified in our open data license (to come).
 
-## We need data
+## We need data, and we will share them!
 
 We need data, with your genuine permissions to share.
 
