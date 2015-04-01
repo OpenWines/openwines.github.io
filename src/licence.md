@@ -12,7 +12,7 @@ collection: pages
 Our concerns:
 
 - our goals are large: wines, winegrowers & vineyard is a very large scope, so we need contributions
-- we are very open to startups, public organizations and business companies that want to reuse or data. It's part of our goals to be a business-friendly open data resource. Choosing the best license, we would like to offer such companies ans organizations a unique opportunity to share their data in a secure way, with guarantees about the redistribution, requiring all modified and extended versions of the data they shared to be open and free as well as they offered it.
+- we are very open to startups, public organizations and business companies that want to reuse our open data. It is part of our goals to be a business-friendly open data resource. Choosing the best license, we would like to offer such companies ans organizations a unique opportunity to share their data in a secure way, with guarantees about the redistribution, requiring all modified and extended versions of the data they shared to be open and free as well as they offered it.
 
 Through our website initiative, we want to give business entities a way to express their opinions on such matters, filling the little survey below:
 
@@ -27,5 +27,7 @@ La Gazette des Communes a publié un résumé de cette problématique concernant
 Nous proposons à tous de contribuer à ce choix en exprimant votre avis via le formulaire ci-dessous :
 
 ## Help us choose the best open-data license for OpenWines:
+
+### If you would share sets of open data with OpenWines, what kind of license would like to put on it?
 
 <iframe src="https://docs.google.com/forms/d/1-YNNEPfm_cTyYir8Z8MomsmUTc4Yc3Qs0_kNF4nWZio/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Chargement en cours...</iframe>
