@@ -37,7 +37,6 @@ var src =           './src',
     website =       './',
     metadata = {
         site_name:      'OpenWines',
-        title:          'OpenWines',
         description:    'Open-Data for Wines'
     };
 
@@ -74,15 +73,6 @@ var paths = {
     ]
 };
 
-var site = {
-    'title': 'Wunderdog K-9 Care & Training',
-    'url': 'http://localhost:9000',
-    'urlRoot': '/',
-    'author': 'Lynn Wunderli',
-    'email': 'wunderdogwi@yahoo.com',
-    'time': new Date()
-}
-
 // Purge before rebuild
 gulp.task('clean', function(cb) {
     return del([
@@ -112,10 +102,12 @@ gulp.task('less', function () {
 
 // Uncss
 gulp.task('ultimcss', ['less'], function () {
-    gulp.src(paths.destination.css + paths.destination.cssFile)
+    gulp.src(paths.source.css + '/' + paths.destination.cssFile)
+        /*
         .pipe(uncss({
             html: [website + 'index.html'] // *.html files all use a common layout template
         }))
+        */
         .pipe(minifyCss())
         .pipe(rename(paths.destination.min.cssFile))
         .pipe(gulp.dest(paths.destination.css));
@@ -138,14 +130,6 @@ gulp.task('imagemin', function() {
             interlaced: true
         })))
         .pipe(gulp.dest(paths.destination.images));
-});
-
-// Minify New or Changed HTML Pages
-gulp.task('htmlpage', function() {
-    gulp.src(paths.html)
-        //.pipe(changed(website)) // source & dest are the same
-        .pipe(minifyHTML())
-        .pipe(gulp.dest(website));
 });
 
 // Minify Vendor
@@ -175,8 +159,7 @@ gulp.task('plugins', function() {
  * In the template a simple global navigation is generated of the root files siblings.
  * inspiration: https://github.com/paulwib/gulp-ssg/blob/master/examples/markdown-website/gulpfile.js
  */
-
-gulp.task('build', ['watch', 'less', 'ultimcss', 'htmlpage', 'include', 'scripts', 'imagemin', 'vendor', 'plugins'], function () {
+gulp.task('build', ['watch', 'less', 'ultimcss', 'include', 'scripts', 'imagemin', 'vendor', 'plugins'], function () {
 
     return gulp.src(paths.contents)
 
@@ -199,9 +182,10 @@ gulp.task('build', ['watch', 'less', 'ultimcss', 'htmlpage', 'include', 'scripts
         // Wrap file in template
         .pipe(wrap(
             { src: 'src/templates/template.html' },
-            { siteTitle: 'Example Website'},
+            { siteTitle: metadata.site_name },
             { engine: 'hogan' }
         ))
+        .pipe(minifyHTML())
 
         // Output to build directory
         .pipe(gulp.dest(website))
@@ -224,9 +208,7 @@ gulp.task('check', function(){
         .pipe(open());
 });
 
-// Default Task
 gulp.task('default', ['clean'], function () {
     gulp.start('build');
-
 });
 

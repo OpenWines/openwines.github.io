@@ -1,8 +1,6 @@
 ---
+title: Open Data for Wines
 description: "Open-Data, for vineyards, winegrowers and wines"
-date: 2015-03-22
-name: 'OpenWines.eu'
-template: index.jade
 ---
 
 Contact: [hello@openwines.eu](mailto:hello@openwines.eu)

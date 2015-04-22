@@ -9,14 +9,14 @@ var http = require('http'),
     util = require('util'),
     serveStatic = require('serve-static'),
     finalhandler = require('finalhandler'),
-    serveStatic = require('serve-static'),
     open = require("open"),
     host = 'localhost',
     port = 8001,
+    docroot = './',
     url = util.format("%s:%d", host, port)
     ;
 
-var serve = serveStatic("./dest"),
+var serve = serveStatic(docroot),
     server = http.createServer(function(req, res){
   var done = finalhandler(req, res)
   serve(req, res, done)

@@ -1,10 +1,7 @@
 ---
-title: "Licence"
-date: 2015-03-22
-description: "Choosing an Open Data Licence"
-template: page.jade
-tags: data, licence
-collection: pages
+title: "License"
+description: "Choosing an Open Data License"
+tags: data, license
 ---
 
 # Choosing an open-data license

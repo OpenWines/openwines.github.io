@@ -1,10 +1,7 @@
 ---
 title: "Data models"
-date: 2015-03-22
 description: "Data Models in OpenWines"
-template: page.jade
 tags: data
-collection: pages
 ---
 
 # Data Models
