@@ -3,7 +3,7 @@
 ## Build static site
 
 ```
-git clone https://github.com/OpenWines/openwines.github.io.gi
+git clone https://github.com/OpenWines/openwines.github.io.git
 cd openwines.github.io 
 npm install
 gulp
