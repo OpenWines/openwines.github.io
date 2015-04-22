@@ -1,0 +1,7 @@
+nav
+    ul
+        each node in page.tree.nodes
+            if node.leaf
+                li
+                    a(href=node.leaf.href)= node.leaf.shortName
+

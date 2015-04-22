@@ -1,7 +1,7 @@
 all: build run
 
 build: node_modules
-	@node build.js
+	gulp
 
 run: node_modules
 	@node run.js

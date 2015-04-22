@@ -16,7 +16,7 @@ var http = require('http'),
     url = util.format("%s:%d", host, port)
     ;
 
-var serve = serveStatic("./"),
+var serve = serveStatic("./dest"),
     server = http.createServer(function(req, res){
   var done = finalhandler(req, res)
   serve(req, res, done)

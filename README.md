@@ -3,19 +3,12 @@
 ## Build static site
 
 ```
-make build
+npm install
+gulp
 ```
 
-We use [metalsmith](https://github.com/segmentio/metalsmith).
-Here is a [good tutorial](http://www.robinthrift.com/posts/metalsmith-part-1-setting-up-the-forge/).
+We use [gulp-ssg](https://www.npmjs.com/package/gulp-ssg) to generate a static website.
 
-## Local server
+# Credits and Acknowledgment
 
-```
-make run
-```
-
-# Static site's webdesign
-
-All assets come in `./src` ; it uses [Jade](http://jade-lang.com) templates.
-
+Webdesign & front-end integration work is courtesy of @samcome, MIT/X11 licensed by OpenWines
