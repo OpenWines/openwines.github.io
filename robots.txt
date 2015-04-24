@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: http://openwines.eu/sitemap.xml
+Disallow: /assets/
+# /licence URL was twitted by mistake
+Disallow: /licence/
+Disallow: /src/
+Disallow: /test/
