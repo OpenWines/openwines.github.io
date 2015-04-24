@@ -51,20 +51,21 @@ var paths = {
         lessFile:   'main.less',
         css:        src + '/css',
         scripts:    src + '/js/scripts/*.js',
-        vendor:     src + '/js/vendor/**/*.js',
+        vendor:     src + '/js/vendor/*.js',
         plugins:    src + '/js/plugins/*.js',
+        bootscript: src + '/js/vendor/bootstrap/',
         images:     src + '/images/**/*'
     },
     destination: {
         cssFile:        'main.css',
-        vendorFile:     'vendor.js',
+        //vendorFile:     'vendor.js',
         css:            assets + '/css',
         js:             assets + '/js',
         images:         assets + '/images',
         min: {
             cssFile:    'main.min.css',
             jsFile:     'main.min.js',
-            vendorFile: 'vendor.min.js'
+            //vendorFile: 'vendor.min.js'
         }
     },
     html:           [
@@ -96,22 +97,23 @@ gulp.task('less', function () {
             paths: [ path.join(__dirname, 'less', 'includes') ]
         }))
         .pipe(csscomb())
-        .pipe(rename(paths.destination.cssFile))
-        .pipe(gulp.dest(paths.source.css));
-});
-
-// Uncss
-gulp.task('ultimcss', ['less'], function () {
-    gulp.src(paths.source.css + '/' + paths.destination.cssFile)
-        /*
-        .pipe(uncss({
-            html: [website + 'index.html'] // *.html files all use a common layout template
-        }))
-        */
         .pipe(minifyCss())
         .pipe(rename(paths.destination.min.cssFile))
         .pipe(gulp.dest(paths.destination.css));
 });
+
+// // Uncss
+// gulp.task('ultimcss', ['less'], function () {
+//     gulp.src(paths.source.css + '/' + paths.destination.cssFile)
+
+//         .pipe(uncss({
+//             html: [website + 'index.html'] // *.html files all use a common layout template
+//         }))
+
+//         .pipe(minifyCss())
+//         .pipe(rename(paths.destination.min.cssFile))
+//         .pipe(gulp.dest(paths.destination.css));
+// });
 
 // Minify Scripts
 gulp.task('scripts', function() {
@@ -136,8 +138,8 @@ gulp.task('imagemin', function() {
 gulp.task('vendor', function() {
     gulp.src(paths.source.vendor)
         .pipe(uglify())
-        .pipe(concat(paths.destination.vendorFile))
-        .pipe(rename(paths.destination.min.vendorFile))
+        //.pipe(concat(paths.destination.vendorFile))
+        .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest(paths.destination.js));
 });
 
@@ -150,6 +152,28 @@ gulp.task('plugins', function() {
         .pipe(gulp.dest(paths.destination.js));
 });
 
+// Concatenate & Minify Bootstrap js
+gulp.task('bootstrap', function () {
+  gulp.src([
+          paths.source.bootscript + 'transition.js',
+          paths.source.bootscript + 'alert.js',
+          paths.source.bootscript + 'button.js',
+          paths.source.bootscript + 'carousel.js',
+          paths.source.bootscript + 'collapse.js',
+          paths.source.bootscript + 'dropdown.js',
+          paths.source.bootscript + 'modal.js',
+          paths.source.bootscript + 'tooltip.js',
+          paths.source.bootscript + 'popover.js',
+          paths.source.bootscript + 'scrollspy.js',
+          paths.source.bootscript + 'tab.js',
+          paths.source.bootscript + 'affix.js'
+        ])
+    .pipe(concat('bootstrap.js'))
+    .pipe(rename('bootstrap.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest(paths.destination.js));
+});
+
 /**
  * - Extracts front-matter from each markdown file, assigns it to file object
  * - Converts markdown to HTML
@@ -159,7 +183,7 @@ gulp.task('plugins', function() {
  * In the template a simple global navigation is generated of the root files siblings.
  * inspiration: https://github.com/paulwib/gulp-ssg/blob/master/examples/markdown-website/gulpfile.js
  */
-gulp.task('build', ['watch', 'less', 'ultimcss', 'include', 'scripts', 'imagemin', 'vendor', 'plugins'], function () {
+gulp.task('build', ['watch', 'less',/*'ultimcss',*/ 'include', 'scripts', 'imagemin', 'vendor', 'plugins', 'bootstrap'], function () {
 
     return gulp.src(paths.contents)
 
@@ -194,12 +218,13 @@ gulp.task('build', ['watch', 'less', 'ultimcss', 'include', 'scripts', 'imagemin
 
 // Watch for changes in files
 gulp.task('watch', function() {
-    gulp.watch(paths.source.less + '/**/*.less', ['ultimcss']);
+    gulp.watch(paths.source.less + '/**/*.less', ['less']);
     gulp.watch(paths.partials + '/**/*.html', ['include']);
     gulp.watch(paths.html, ['htmlpage']);
     gulp.watch(paths.source.scripts, ['scripts']);
     gulp.watch(paths.source.vendor, ['vendor']);
     gulp.watch(paths.source.plugins, ['plugins']);
+    gulp.watch(paths.source.bootscript, ['bootstrap']);
     gulp.watch(paths.source.images, ['imagemin']);
 });
 
