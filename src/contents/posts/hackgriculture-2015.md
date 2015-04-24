@@ -6,7 +6,7 @@ tags: hackgriculture, hackaton, meet us
 collection: posts
 ---
 
-# (fr) OpenWines @ Hackgriculture 2015
+## (fr) OpenWines @ Hackgriculture 2015
 
 Les 21 et 22 mars 2015 à Nantes, le projet OpenWines a fait des pas importants,
 au cours du hackaton ["Hackgriculture"](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/) un évènement organisé par [Nantes Villes Comestible](http://www.nantesvillecomestible.org).
