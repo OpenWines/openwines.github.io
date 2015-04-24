@@ -2,7 +2,7 @@
 # The humans responsible & technology colophon
 
 # TEAM
-    test change name
+    test change re-name
     <name> -- <role> -- <twitter>
 
 # THANKS
