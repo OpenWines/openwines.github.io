@@ -54,7 +54,8 @@ var paths = {
         vendor:     src + '/js/vendor/*.js',
         plugins:    src + '/js/plugins/*.js',
         bootscript: src + '/js/vendor/bootstrap/',
-        images:     src + '/images/**/*'
+        images:     src + '/images/**/*',
+        fonts:     src + '/fonts/*',
     },
     destination: {
         cssFile:        'main.css',
@@ -62,6 +63,7 @@ var paths = {
         css:            assets + '/css',
         js:             assets + '/js',
         images:         assets + '/images',
+        fonts:          assets + '/fonts',
         min: {
             cssFile:    'main.min.css',
             jsFile:     'main.min.js',
@@ -81,6 +83,12 @@ gulp.task('clean', function(cb) {
         website + '/*.html',
         website + '/posts/*.html'
     ], cb);
+});
+
+// Move Files
+gulp.task('move', function(){
+    gulp.src(paths.source.fonts)
+        .pipe(gulp.dest(paths.destination.fonts))
 });
 
 // Include - not used yet
@@ -183,7 +191,7 @@ gulp.task('bootstrap', function () {
  * In the template a simple global navigation is generated of the root files siblings.
  * inspiration: https://github.com/paulwib/gulp-ssg/blob/master/examples/markdown-website/gulpfile.js
  */
-gulp.task('build', ['watch', 'less',/*'ultimcss',*/ 'include', 'scripts', 'imagemin', 'vendor', 'plugins', 'bootstrap'], function () {
+gulp.task('build', ['watch', 'less',/*'ultimcss',*/ 'include', 'move', 'scripts', 'imagemin', 'vendor', 'plugins', 'bootstrap'], function () {
 
     return gulp.src(paths.contents)
 

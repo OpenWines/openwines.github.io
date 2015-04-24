@@ -4,8 +4,6 @@ description: "Data Models in OpenWines"
 tags: data
 ---
 
-# Data Models
-
 Being a semantic data project, OpenWines needed to choose a model to describe the open data it exposes.
 
 Semantic Data Models are currently represented using various data schemas, such as RDFa, Microformats, Microdata, RDF/JSON or JSON-LD.
@@ -13,7 +11,7 @@ Semantic Data Models are currently represented using various data schemas, such 
 Semantic data are eventually exposed via a [SPARQL endpoint](http://www.w3.org/wiki/SparqlEndpoints)
 
 At the moment we are _thinking_ of:
-- [JSON-LD](http://json-ld.org) as method of transporting Linked Data using JSON 
+- [JSON-LD](http://json-ld.org) as method of transporting Linked Data using JSON
 - [Hydra](http://fr.slideshare.net/lanthaler/hydra-a-vocabulary-for-hypermediadriven-web-apis) as a vocabulary for Hypermedia-Driven Web API, and this page presents arguments of such choice.
 - [Symfony2 + HydraBundle](https://github.com/lanthaler/HydraBundle) as an HATEOAS API endpoint
 

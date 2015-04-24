@@ -1,3 +1,119 @@
 //
 // Header
 // --------------------------------------------------
+header {
+    .navbar-brand {
+        position: absolute;
+        top: 0;
+        left: auto;
+        padding-top: 5px;
+        .ow-logotype {
+            color: @ow-green;
+            font-size: 3.4em;
+            background: @white;
+            border: 2px solid @white;
+        }
+        .title-logotype {
+            color: @ow-green;
+            font-size: 2.2em;
+            position: absolute;
+            top: 10px;
+            left: 90px;
+            z-index: 2000;
+            i {
+                > span {
+                    font-size: 0.7em;
+                }
+            }
+        }
+        small {
+            position: absolute;
+            top: 38px;
+            left: 90px;
+            width: 320px;
+            font-weight: 300;
+            color: @ow-gray;
+        }
+    }
+    .dropdown {
+        &.open {
+            .caret {
+                border-top: inherit;
+                border-bottom: 4px dashed;
+            }
+        }
+    }
+}
+
+//
+// Responsive
+// --------------------------------------------------
+@media  (min-width: @screen-sm-min) {
+    .navbar-nav {
+        > li {
+            > a {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+@media  (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+
+}
+@media  (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    header {
+        .navbar-brand {
+            small {
+                font-size: 0.7em;
+            }
+        }
+    }
+}
+@media  (max-width: @screen-xs-max) {
+    header {
+        .navbar-default {
+            background: @ow-green;
+        }
+        .navbar-brand {
+            padding-left: 12px;
+            .ow-logotype {
+                font-size: 3em;
+            }
+            .title-logotype {
+                font-size: 2em;
+                left: 80px;
+                top: 16px;
+                color: @white;
+                font-weight: 300;
+            }
+        }
+    }
+    .navbar-default {
+        .navbar-nav {
+            > li {
+                small {
+                    display: block;
+                    padding-left: 15px;
+                    font-style: italic;
+                    font-size: 1em;
+                }
+                > a {
+                    color: @white;
+                }
+            }
+            .open {
+                .dropdown-menu {
+                    > li {
+                        > a {
+                            color: @white;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-text {
+            color: darken(@ow-green, 15%);
+        }
+    }
+}

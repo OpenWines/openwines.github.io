@@ -8,6 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="/apple-icon.png">
     <link rel="shortcut icon" href="/favicon.ico">
+
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Source+Sans+Pro:200,300,400,600,200italic,300italic,400italic,600italic:latin' ] }
+        };
+        (function() {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
     <link rel="stylesheet" href="/assets/css/main.min.css">
     <script src="/assets/js/modernizr-2.8.3.min.js"></script>
 
@@ -52,11 +67,15 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/">OpenWines</a>
+                    <a href="/" class="navbar-brand">
+                        <span class="ow-logotype"></span>
+                        <span class="title-logotype"><i><span><span>O</span>pen</span>Wines</i></span>
+                        <small class="hidden-xs">Open-Data, for vineyards, winegrowers and wines</small>
+                    </a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><p class="navbar-text"><i>Open-Data, for vineyards, winegrowers and wines</i></p></li>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="visible-xs-block"><small class="navbar-text">Open-Data, for vineyards, winegrowers and wines</small></li>
                         <li>
                             <a href="/">
                                 Home
@@ -91,7 +110,7 @@
     <main>
         <section>
             <div class="container">
-                <div class="col-md-12">
+                <div class="col-md-offset-2 col-md-8">
                     <h1>
                         {{file.data.title}}
                     </h1>
