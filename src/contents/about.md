@@ -4,7 +4,6 @@ description: "About OpenWines"
 tags: meet us
 ---
 
-
 ## Objectives
 
 - Launch the first initiative for wine [open-data](http://opendatahandbook.org) resources: vineyards, winegrowers, wines, etc.
@@ -18,14 +17,15 @@ Our comitment: All resources we deal with and services we build must remain free
 
 ## Working Group
 
-- Ronan Guilloux ([Github](https://github.com/ronanguilloux), [Twitter](https://twitter.com/arno_u_loginlux))
-- Samuel Frémondière ([Github](https://github.com/samcome), [Twitter](https://twitter.com/samcome))
-- Yannick Lebras ([Github](https://github.com/verlectric))
-- Thomas Gratier ([Github](https://github.com/ThomasG77), [Twitter](https://twitter.com/thomasg77))
+- Annaïg Denis ([Github](https://github.com/adenis-tis), [Twitter](https://twitter.com/scaranaik))
 - Martin Blanchart
-- Thomas Fougère ([Github](https://github.com/tomfougere))
 - Anthony Faucogney ([Github](https://github.com/afaucogney), [Twitter](https://twitter.com/afaucogney]))
-
+- Samuel Frémondière ([Github](https://github.com/samcome), [Twitter](https://twitter.com/samcome))
+- Stéphane Gigandet [OpenFoodFact](http://openfoodfacts.org), [Twitter](https://twitter.com/stephanebiz))
+- Thomas Gratier ([Github](https://github.com/ThomasG77), [Twitter](https://twitter.com/thomasg77))
+- Ronan Guilloux ([Github](https://github.com/ronanguilloux), [Twitter](https://twitter.com/arno_u_loginlux))
+- Yannick Lebras ([Github](https://github.com/verlectric))
+- Pierre Slamich ([OpenFoodFact](http://openfoodfacts.org), [Twitter](https://twitter.com/teolemon))
 
 The group first met in real life during the '[hackgriculture](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/)' _hackaton_ that took place in Nantes, on March 21th 2015 (see [related blog post](/hackgriculture-2015/)). All are members/contributors of the [OpenWines Organization group on Github](https://github.com/OpenWines).
 

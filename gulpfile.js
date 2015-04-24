@@ -27,6 +27,7 @@ var gulp =          require('gulp'),
     wrap =          require('gulp-wrap'),
     includer =      require('gulp-lb-include'),
     del =           require('del'),
+    sitemap =       require('gulp-sitemap'),
     debug =         require('gulp-debug'),
     notify =        require('gulp-notify'),
     open =          require('gulp-open')
@@ -69,8 +70,8 @@ var paths = {
         }
     },
     html:           [
-        website + '/*.html',
-        website + '/posts/*.html'
+        website + '*.html',
+        website + 'posts/*.html'
     ]
 };
 
@@ -183,7 +184,7 @@ gulp.task('bootstrap', function () {
  * In the template a simple global navigation is generated of the root files siblings.
  * inspiration: https://github.com/paulwib/gulp-ssg/blob/master/examples/markdown-website/gulpfile.js
  */
-gulp.task('build', ['watch', 'less',/*'ultimcss',*/ 'include', 'scripts', 'imagemin', 'vendor', 'plugins', 'bootstrap'], function () {
+gulp.task('contents', ['watch', 'less',/*'ultimcss',*/ 'include', 'scripts', 'imagemin', 'vendor', 'plugins', 'bootstrap'], function () {
 
     return gulp.src(paths.contents)
 
@@ -212,15 +213,24 @@ gulp.task('build', ['watch', 'less',/*'ultimcss',*/ 'include', 'scripts', 'image
         .pipe(minifyHTML())
 
         // Output to build directory
-        .pipe(gulp.dest(website))
+        .pipe(gulp.dest(website));
+});
 
+// Sitemap
+gulp.task('build', ['contents'], function () {
+    gulp.src(paths.html)
+        .pipe(sitemap({
+            siteUrl: 'http://openwines.eu'
+        }))
+        .pipe(gulp.dest(website))
+        .pipe(notify("build achieved."));
 });
 
 // Watch for changes in files
 gulp.task('watch', function() {
     gulp.watch(paths.source.less + '/**/*.less', ['less']);
     gulp.watch(paths.partials + '/**/*.html', ['include']);
-    gulp.watch(paths.html, ['htmlpage']);
+    gulp.watch(paths.contents, ['build']);
     gulp.watch(paths.source.scripts, ['scripts']);
     gulp.watch(paths.source.vendor, ['vendor']);
     gulp.watch(paths.source.plugins, ['plugins']);
