@@ -115,32 +115,40 @@
     <main>
         <section>
             <div class="container">
-                <div class="col-md-offset-2 col-md-8">
-                    <h1>
-                        {{file.data.title}}
-                    </h1>
-                    <article>
-                        {{{file.contents}}}
-                    </article>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <h1>
+                            {{file.data.title}}
+                        </h1>
+                        <article>
+                            {{{file.contents}}}
+                        </article>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div class="col-md-12">
-                <hr>
-                <ul class="list-inline list-unstyled">
-                    <li>Discussions: <a href="https://groups.google.com/forum/#!forum/openwines">Google Group</a></li>
-                    <li>Twitter: <a href="https://twitter.com/openwines">@openwines</a></li>
-                    <li>Organization: <a href="https://trello.com/openwines">Trello</a></li>
-                    <li>Open Source: <a href="https://github.com/openwines">Github</a></li>
-                    <li>www : <a href="http://openwines.eu">openwines.eu</a></li>
-                    <li>@ : <a href="mailto:hello@openwines.eu">hello@openwines.eu</a></li>
-                </ul>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline list-unstyled">
+                        <li><span class="hidden-xs hidden-sm">Discussions: </span><a href="https://groups.google.com/forum/#!forum/openwines"><span class="visible-xs-inline-block visible-sm-inline-block social-social"></span><span class="hidden-xs hidden-sm"> Google Group</span></a></li>
+                        <li><span class="hidden-xs hidden-sm">Twitter: </span><a href="https://twitter.com/openwines"><span class="visible-xs-inline-block visible-sm-inline-block social-twitter"></span><span class="hidden-xs hidden-sm"> @openwines</span></a></li>
+                        <li><span class="hidden-xs hidden-sm">Organization: </span><a href="https://trello.com/openwines"><span class="visible-xs-inline-block visible-sm-inline-block social-trello"></span><span class="hidden-xs hidden-sm"> Trello</span></a></li>
+                        <li><span class="hidden-xs hidden-sm">Open Source: </span><a href="https://github.com/openwines"><span class="visible-xs-inline-block visible-sm-inline-block social-github"></span><span class="hidden-xs hidden-sm"> Github</span></a></li>
+                        <li>www : <a href="http://openwines.eu">openwines.eu</a></li>
+                        <li>@ : <a href="mailto:hello@openwines.eu">hello@openwines.eu</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>
+
+    <a id="top-link-block" class="hidden" href="#top" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <span class="glyphicon glyphicon-menu-up"></span>
+    </a>
+
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>

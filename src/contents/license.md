@@ -4,7 +4,7 @@ description: "Choosing an Open Data License"
 tags: data, license
 ---
 
-# Choosing an open-data license
+## Choosing an open-data license
 
 Our concerns:
 

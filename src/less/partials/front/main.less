@@ -1,9 +1,81 @@
 //
 // Main
 // --------------------------------------------------
+html {
+    position: relative;
+    min-height: 100%;
+}
 body {
-    section {
-        margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    background: @white;
+    //background: transparent url(/assets/images/vigne-muscadet-large-desktop.jpg) no-repeat center fixed;
+    //-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    //background-size: cover; /* version standardisée */
+
+    // Style iframe
+    iframe {
+        border: 2px solid @white;
+        outline: 1px solid @ow-gray;
+    }
+
+    // Back To Top
+    #top-link-block {
+        border-radius: @border-radius-small;
+        background-color: @ow-green;
+        .square(30px);
+        display: inline-block;
+        text-align: center;
+        span {
+            color: @white;
+            font-size: 1.4em;
+        }
+        &:hover {
+            background-color:  darken(@ow-green, 15%);
+        }
+    }
+    .affix {
+        bottom: 40px;
+        right: 15px;
+    }
+}
+
+// Border h1
+h1 {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+}
+
+// Style list
+article {
+    ul {
+        li {
+            list-style: none;
+            position: relative;
+            &:before {
+                font-family: 'Glyphicons Halflings';
+                content: "\e258";
+                display: inline-block;
+                font-size: 0.5em;
+                position: absolute;
+                top: 6px;
+                left: -12px;
+            }
+        }
+    }
+}
+
+// Style btn default
+.btn-default {
+    &:hover,
+    &:focus {
+        border-color: @ow-green;
+        color: @ow-green;
+        background: @white;
+    }
+    .glyphicon-resize-full {
+        display: inline-block;
+        margin-left: 10px;
     }
 }
 
@@ -17,5 +89,11 @@ body {
 
 }
 @media  (max-width: @screen-xs-max) {
-
+    body {
+        margin-bottom: 0;
+        .affix {
+            right: 15px;
+            bottom: 55px;
+        }
+    }
 }
