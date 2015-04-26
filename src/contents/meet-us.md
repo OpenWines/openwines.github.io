@@ -18,7 +18,6 @@ Our comitment: All resources we deal with and services we build must remain free
 ## The Working Group
 
 - Annaïg Denis ([Github](https://github.com/adenis-tis), [Twitter](https://twitter.com/scaranaik))
-- Martin Blanchard ([Gitlab](https://gitlab.com/u/tchaik))
 - Anthony Faucogney ([Github](https://github.com/afaucogney), [Twitter](https://twitter.com/afaucogney]))
 - Samuel Frémondière ([Github](https://github.com/samcome), [Twitter](https://twitter.com/samcome))
 - Stéphane Gigandet ([OpenFoodFact](http://openfoodfacts.org), [Twitter](https://twitter.com/stephanebiz))
