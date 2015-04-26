@@ -226,7 +226,7 @@ gulp.task('contents', ['watch', 'less',/*'ultimcss',*/ 'include', 'move', 'scrip
 
 // Sitemap
 gulp.task('build', ['contents'], function () {
-    gulp.src(paths.html)
+    gulp.src(paths.html, { base: './' })
         .pipe(sitemap({
             siteUrl: 'http://openwines.eu'
         }))
