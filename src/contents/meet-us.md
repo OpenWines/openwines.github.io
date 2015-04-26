@@ -45,6 +45,7 @@ __To be kept up to date about our next live/online meetings__, just [sign up and
 - Open Source: [Github](https://github.com/openwines)
 - www: [openwines.eu](http://openwines.eu)
 - @: [hello@openwines.eu](mailto:hello@openwines.eu)
+- [Privacy Policy](http://openwines.eu/privacy-policy.html)
 
 Some of us speak fluently in english, italian and french: just ping us!
 

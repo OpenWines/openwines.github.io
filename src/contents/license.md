@@ -4,7 +4,7 @@ description: "Choosing an Open Data License"
 tags: data, license
 ---
 
-## Choosing an open-data license
+## [en] Choosing an open-data license
 
 Our concerns:
 
@@ -13,7 +13,7 @@ Our concerns:
 
 Through our website initiative, we want to give business entities a way to express their opinions on such matters, filling the little survey below:
 
-## (french) Choisir une licence pour l'open-data
+## [fr] Choisir une licence pour l'open-data
 
 Concenant l'open-data du Vin, nos objectifs sont si vastes que nous ne pouvons prétendre produire toutes les données que nous espérons partager.
 OpenWines est un projet bienveillant vis à vis des startups, entreprises ou organismes publics qui voudront bien libérer et partager leurs données. C'est pour leur donner des garanties sur la redistribution de leurs données dans les meilleurs conditions (parternité, partage à l'identique) que nous cherchons une license open-data qui protège au mieux ces contributions.
