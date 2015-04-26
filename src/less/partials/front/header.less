@@ -36,6 +36,12 @@ header {
                 color: @ow-gray;
             }
         }
+        .navbar-nav>.active>a,
+        .navbar-nav>.active>a:focus,
+        .navbar-nav>.active>a:hover {
+            border-top: 2px solid @ow-red;
+            padding-top: 18px;
+        }
         .dropdown {
             &.open {
                 .caret {
@@ -50,6 +56,15 @@ header {
 //
 // Responsive
 // --------------------------------------------------
+@media  (min-width: @screen-md-min) {
+    .navbar-nav {
+        > li {
+            > a {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
 @media  (min-width: @screen-sm-min) {
     .navbar-nav {
         > li {
