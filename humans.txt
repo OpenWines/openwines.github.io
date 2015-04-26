@@ -1,15 +1,41 @@
-# humanstxt.org/
+# openwines.eu/
 # The humans responsible & technology colophon
 
 # TEAM
-    test change re-name
-    <name> -- <role> -- <twitter>
+    Annaïg Denis
+    Twitter: @scaranaik
+
+    Martin Blanchard
+    Twitter: …
+
+    Anthony Faucogney
+    Twitter: @afaucogney
+
+    Samuel Frémondière
+    Twitter: @samcome
+
+    Stéphane Gigandet
+    Twitter: @stephanebiz
+
+    Thomas Gratier
+    Twitter: @thomasg77
+
+    Ronan Guilloux
+    Twitter: @arno_u_loginlux
+
+    Yannick Lebras
+    Twitter: …
+
+    Pierre Slamich
+    Twitter: @teolemon
 
 # THANKS
 
-    <name>
+    ...
 
 # TECHNOLOGY COLOPHON
-
+    Last update:2015/26/04
+    Language: English / French / Italian
+    IDE: Sublime Text, Photoshop, Sketch
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Apache Server Configs, jQuery, Modernizr, Bootstrap...
