@@ -39,7 +39,7 @@ header {
         .navbar-nav>.active>a,
         .navbar-nav>.active>a:focus,
         .navbar-nav>.active>a:hover {
-            border-top: 2px solid @ow-red;
+            border-top: 2px solid @ow-green;
             padding-top: 18px;
         }
         .dropdown {
@@ -66,6 +66,13 @@ header {
     }
 }
 @media  (min-width: @screen-sm-min) {
+    body {
+        &.background {
+            .navbar-default {
+                background-color: @white;
+            }
+        }
+    }
     .navbar-nav {
         > li {
             > a {
@@ -98,6 +105,13 @@ header {
     }
 }
 @media  (max-width: @screen-xs-max) {
+    body {
+        &.background {
+            .baseline {
+                color: @white;
+            }
+        }
+    }
     header {
         .navbar-default {
             background: @ow-green;
@@ -114,6 +128,13 @@ header {
                     font-weight: 300;
                 }
             }
+            .baseline {
+                position: relative;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                margin-top: 15px;
+            }
             .navbar-nav {
                 > li {
                     small {
@@ -127,12 +148,29 @@ header {
                         font-size: 1.2em;
                         font-weight: 200;
                     }
+                    &.active,
+                    &.open {
+                        > a,
+                        > a:focus,
+                        > a:hover {
+                            color: darken(@ow-green, 15%);
+                            border-top: none;
+                            padding-top: 12px;
+                        }
+                    }
                 }
                 .open {
                     .dropdown-menu {
                         > li {
                             > a {
                                 color: @white;
+                            }
+                            &.active {
+                                > a,
+                                > a:focus,
+                                > a:hover {
+                                    color: darken(@ow-green, 15%);
+                                }
                             }
                         }
                     }
