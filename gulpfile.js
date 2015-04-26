@@ -37,8 +37,16 @@ var src =           './src',
     assets =        './assets',
     website =       './',
     metadata = {
-        site_name:      'OpenWines',
-        description:    'Open-Data for Wines'
+        site_name:          'OpenWines',
+        site_url:           'http://openwines.eu',
+        description:        'Open-Data, for vineyards, winegrowers and wines',
+        locale:             'en_GB',
+        locale_alternate:   'fr_FR',
+        publication:        new Date(),
+        modification:       new Date(),
+        thumbnail:          'http://openwines.eu/assets/images/ow-logotype-256x256.png',
+        thumbnail_height:   256,
+        thumbnail_width:    256
     };
 
 var paths = {
@@ -215,7 +223,7 @@ gulp.task('contents', ['watch', 'less',/*'ultimcss',*/ 'include', 'move', 'scrip
         // Wrap file in template
         .pipe(wrap(
             { src: 'src/templates/template.html' },
-            { siteTitle: metadata.site_name },
+            { siteTitle: metadata.site_name, metadata: metadata},
             { engine: 'hogan' }
         ))
         .pipe(minifyHTML())
