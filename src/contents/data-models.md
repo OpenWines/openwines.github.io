@@ -1,7 +1,7 @@
 ---
 title: "Data models"
 description: "Data Models in OpenWines"
-tags: data
+tags: data, work-in-progress
 ---
 
 Being a semantic data project, OpenWines needed to choose a model to describe the open data it exposes.
