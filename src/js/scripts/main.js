@@ -1,5 +1,14 @@
 ( function( $ ) {
 
+    // Loading homepage
+    $(window).load(function() {
+        var $homeLoad = $('body.background .se-pre-con');
+
+        if ($homeLoad.length) {
+            $homeLoad.fadeOut("slow");
+        }
+    });
+
     // BackToTop
     if ( ($(window).height() + 100) < $(document).height() ) {
         $('#top-link-block').removeClass('hidden').affix({

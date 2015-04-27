@@ -48,7 +48,7 @@ However, you can still access all information provided on [Openwines.eu](http://
 
 #### Third Party Disclosure
 
-We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide you with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property, or safety. 
+We do not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide you with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential. We may also release your information when we believe release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property, or safety.
 
 However, non-personally identifiable visitor information may be provided to other parties for marketing, advertising, or other uses.
 
@@ -58,7 +58,7 @@ Occasionally, at our discretion, we may include or offer third party products or
 
 #### Google Analytics
 
-Google's analytics can be summed up by Google's Analytics Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en 
+Google's analytics can be summed up by Google's Analytics Principles. They are put in place to provide a positive experience for users. https://support.google.com/adwordspolicy/answer/1316548?hl=en
 
 - We do not use Google AdSense Advertising on our website.
 - We use Google Analytics on our website.
@@ -141,6 +141,11 @@ If at any time you would like to unsubscribe from receiving future emails, you c
 
 and we will promptly remove you from ALL correspondence.
 
+#### Credits
+
+- Icon (logotype) made by [Freepik](http://www.flaticon.com/authors/freepik) from [www.flaticon.com](http://www.flaticon.com) is licensed by [CC BY 3.0](http://creativecommons.org/licenses/by/3.0).
+- Social Icons from [www.flaticon.com](http://www.flaticon.com) is licensed by [CC BY 3.0](http://creativecommons.org/licenses/by/3.0).
+- Background image (Vigneto del Muscadet a Remouillé) made by [Cyril5555](http://commons.wikimedia.org/wiki/User:Cyril5555) from [www.it.wikipedia.org](http://it.wikipedia.org/wiki/Muscadet#/media/File:Vigne_muscadet_2.jpg) is licensed by [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 
 #### Contacting Us
 
