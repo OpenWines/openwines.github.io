@@ -46,7 +46,9 @@ Ronan propose que nous tenions informé OpenFoodFacts de nos travaux sur la mod�
 
 Yannick nous a fait un compte-rendu de la rencontre avec Romain Mayet, ingénieur technique au Syndicat de Défense du Muscadet SDAOC.
 
-Il se montre ntéressé en particulier par notre travail de cartographie (il utilise des cartes papier pour gérer son travail sur l'AOC)
+Ingénieur technique, Romain fait partie du personnel salarié du SDAOC Muscadet, il n'est donc pas responsable de la libération ou non des données.
+Il se montre intéressé en particulier par notre travail de cartographie (il utilise des cartes papier pour gérer son travail sur l'AOC).
+Romain s'est bien proposé de nous aider à mieux appréhender le milieu viticole et à rencontrer des professionnels susceptibles d'être des relais d'opinion.
 
 Les autres organismes intéressants à rencontrer sont listés par Yannick. Ronan a proposé que Yannick et Annaïg se charge de nos relations publiques, avec comme objectifs
 
