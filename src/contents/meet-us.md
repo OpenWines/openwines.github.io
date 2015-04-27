@@ -17,14 +17,15 @@ Our comitment: All resources we deal with and services we build must remain free
 
 ## The Working Group
 
-- Annaïg Denis ([Github](https://github.com/adenis-tis), [Twitter](https://twitter.com/scaranaik))
-- Anthony Faucogney ([Github](https://github.com/afaucogney), [Twitter](https://twitter.com/afaucogney]))
-- Samuel Frémondière ([Github](https://github.com/samcome), [Twitter](https://twitter.com/samcome))
-- Stéphane Gigandet ([OpenFoodFact](http://openfoodfacts.org), [Twitter](https://twitter.com/stephanebiz))
-- Thomas Gratier ([Github](https://github.com/ThomasG77), [Twitter](https://twitter.com/thomasg77))
-- Ronan Guilloux ([Github](https://github.com/ronanguilloux), [Twitter](https://twitter.com/arno_u_loginlux))
-- Yannick Lebras ([Github](https://github.com/verlectric))
-- Pierre Slamich ([OpenFoodFact](http://openfoodfacts.org), [Twitter](https://twitter.com/teolemon))
+- Annaïg Denis : communication, relations publiques ([Github](https://github.com/adenis-tis), [Twitter](https://twitter.com/scaranaik))
+- Anthony Faucogney : relation startups ([Github](https://github.com/afaucogney), [Twitter](https://twitter.com/afaucogney]))
+- Samuel Frémondière : infographie, webdesign ([Github](https://github.com/samcome), [Twitter](https://twitter.com/samcome))
+- Stéphane Gigandet : partenariat avec [OpenFoodFacts](http://openfoodfacts.org) ([Twitter](https://twitter.com/stephanebiz))
+- Thomas Gratier : webmapping, préparation des jeux de données ([Github](https://github.com/ThomasG77), [Twitter](https://twitter.com/thomasg77))
+- Ronan Guilloux : développements, animation du groupe, gestion de projet ([Github](https://github.com/ronanguilloux), [Twitter](https://twitter.com/arno_u_loginlux))
+- Yannick Lebras : relations vignerons et syndicats pro ([Github](https://github.com/verlectric))
+- Pierre Slamich: partenariat avec [OpenFoodFacts](http://openfoodfacts.org) ([Twitter](https://twitter.com/teolemon))
+- Davide Usai: modélisation sémantique ([Viadeo](http://www.viadeo.com/fr/profile/davideusai))
 
 
 ## We meet once a month, in a wine bar

@@ -7,8 +7,8 @@ description: "Open-Data, for vineyards, winegrowers and wines"
     <div class="col-md-offset-2 col-md-8">
         <div class="well text-center">
             <h2>What is OpenWines?</h2>
-            <p>Our primary goal is to gather datasets of genuine open-data licensed resources about wines.</p>
-            <p>Our secondary goal is to use such open datasets to build nice data visualization about vineyards, winegrowers & wines, all over the world.</p>
+            <p>Our primary goal is to gather and share datasets of genuine open-data licensed resources about wines.</p>
+            <p>Our secondary goal is to deliver nice data visualizations and mapping about wines, in various regions of the world.</p>
             <p class="lead">Work in progress!</p>
             <a href="mailto:hello@openwines.eu" class="btn btn-default">Contact: hello@openwines.eu</a>
         </div>
@@ -19,16 +19,16 @@ description: "Open-Data, for vineyards, winegrowers and wines"
         <div class="col-md-6">
             <h3>Are you a Wine Startup?</h3>
             <p class="lead">No, we are a non-profit organization.</p>
-            <p>We started OpenWines in march 2015: OpenWines is not a startup or a commercial initiative: we are building an [open-data](http://opendatahandbook.org/en/what-is-open-data/index.html#what-is-open) collaborative project about wines.</p>
-            <p>'Open' means free, available, reusable, redistribuable, interoperable, and open to contributions. Not only the data are free, but also the tools, softwares, schemas, design, illustration and documentation that come with them. This will remain as is, for ever, without conditions or limitations other than specified in our open data license (to come).</p>
+            <p>We started OpenWines in March, 2015: OpenWines is not a startup or a commercial initiative: we are building an [open-data](http://opendatahandbook.org/en/what-is-open-data/index.html#what-is-open) collaborative project about wines, vineyars & winegrowers.</p>
+            <p>'Open' means: free, available, reusable, redistribuable, interoperable, and open to contributions. Not only the data are free, but also the tools, softwares, schemas, design, illustration and documentation that come with them. This will remain as is, for ever, thanks to [an open-data license](http://en.wikipedia.org/wiki/Open_Database_License).</p>
         </div>
         <div class="col-md-6">
             <h3>We need data,<br>and we will share them!</h3>
             <p>We need data, with your genuine permissions to share.</p>
             <p>Send your materials (csv, xls., json, etc) to:</p>
             <a href="mailto:data@openwines.eu" class="btn btn-default btn-sm">data@openwines.eu</a>
-            <p>Any raw data is accepted. All shared data will be reditributed here with an open-data license (to come).</p>
-            <p>The open-data license to be defined is not a closed choice. Instead, we open this discussion to everybody: startups that want to reuse our datasets, businesss company that are OK for sharing their own data, public organization, developers, etc.. [Please help us answering 6 little questions about the best open-data license choice we should do.](http://openwines.eu/licence/#help-us-choose-the-best-open-data-license-for-openwines-)</p>
+            <p>Any raw data is accepted. All shared data will be reditributed here with a "Share Alike" agreement: We are thinking about the opportunity of the [Open Database License](http://en.wikipedia.org/wiki/Open_Database_License).</p>
+            <p>[Please help us answering 6 little questions about the best open-data license choice we should do](http://openwines.eu/licence/#help-us-choose-the-best-open-data-license-for-openwines-)</p>
         </div>
     </div>
 </div>
