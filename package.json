@@ -47,6 +47,7 @@
     "hogan.js": "^3.0.2",
     "mocha": "~2.0.1",
     "mversion": "^1.6.1",
+    "node-notifier": "^4.2.1",
     "open": "0.0.5",
     "path": "^0.11.14",
     "serve-static": "^1.9.2"
