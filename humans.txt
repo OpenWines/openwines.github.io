@@ -30,12 +30,15 @@
     Twitter: @teolemon
 
 # THANKS
+    Nantes Villes Comestible
+    Twitter: @Nantescomestibl
 
-    ...
+    LiberTIC
+    Twitter: @LiberTIC
 
 # TECHNOLOGY COLOPHON
     Last update:2015/26/04
     Language: English / French / Italian
-    IDE: Sublime Text, Photoshop, Sketch
+    IDE: Sublime Text
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Bootstrap...
