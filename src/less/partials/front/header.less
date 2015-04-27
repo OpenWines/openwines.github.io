@@ -3,6 +3,8 @@
 // --------------------------------------------------
 header {
     .navbar-default {
+        background: @white;
+        .box-shadow(0 0 0 2px rgba(0,0,0,.2));
         .navbar-brand {
             position: absolute;
             top: 0;
@@ -105,27 +107,25 @@ header {
     }
 }
 @media  (max-width: @screen-xs-max) {
-    body {
-        &.background {
-            .baseline {
-                color: @white;
-            }
-        }
-    }
     header {
         .navbar-default {
-            background: @ow-green;
             .navbar-brand {
                 padding-left: 12px;
                 .ow-logotype {
                     font-size: 3em;
                 }
                 .title-logotype {
-                    color: @white;
                     font-size: 2em;
                     left: 80px;
                     top: 16px;
-                    font-weight: 300;
+                }
+            }
+            .navbar-toggle {
+                &:focus,
+                &:hover {
+                    .icon-bar {
+                        background-color: @white;
+                    }
                 }
             }
             .baseline {
@@ -134,6 +134,7 @@ header {
                 width: 100%;
                 text-align: center;
                 margin-top: 15px;
+                color: @ow-gray;
             }
             .navbar-nav {
                 > li {
@@ -144,7 +145,6 @@ header {
                         font-size: 1em;
                     }
                     > a {
-                        color: @white;
                         font-size: 1.4em;
                     }
                     &.active,
@@ -152,31 +152,11 @@ header {
                         > a,
                         > a:focus,
                         > a:hover {
-                            color: darken(@ow-green, 15%);
                             border-top: none;
                             padding-top: 12px;
                         }
                     }
                 }
-                .open {
-                    .dropdown-menu {
-                        > li {
-                            > a {
-                                color: @white;
-                            }
-                            &.active {
-                                > a,
-                                > a:focus,
-                                > a:hover {
-                                    color: darken(@ow-green, 15%);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            .navbar-text {
-                color: darken(@ow-green, 15%);
             }
         }
     }
