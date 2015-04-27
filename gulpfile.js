@@ -33,7 +33,8 @@ var gulp =          require('gulp'),
     open =          require('gulp-open')
 ;
 
-var src =           './src',
+var watch = true,
+    src =           './src',
     assets =        './assets',
     website =       './',
     metadata = {
@@ -244,14 +245,16 @@ gulp.task('build', ['contents'], function () {
 
 // Watch for changes in files
 gulp.task('watch', function() {
-    gulp.watch(paths.source.less + '/**/*.less', ['less']);
-    gulp.watch(paths.partials + '/**/*.html', ['include']);
-    gulp.watch(paths.contents, ['build']);
-    gulp.watch(paths.source.scripts, ['scripts']);
-    gulp.watch(paths.source.vendor, ['vendor']);
-    gulp.watch(paths.source.plugins, ['plugins']);
-    gulp.watch(paths.source.bootscript, ['bootstrap']);
-    gulp.watch(paths.source.images, ['imagemin']);
+    if(watch) {
+        gulp.watch(paths.source.less + '/**/*.less', ['less']);
+        gulp.watch(paths.partials + '/**/*.html', ['include']);
+        gulp.watch(paths.contents, ['build']);
+        gulp.watch(paths.source.scripts, ['scripts']);
+        gulp.watch(paths.source.vendor, ['vendor']);
+        gulp.watch(paths.source.plugins, ['plugins']);
+        gulp.watch(paths.source.bootscript, ['bootstrap']);
+        gulp.watch(paths.source.images, ['imagemin']);
+    }
 });
 
 gulp.task('check', function(){
@@ -260,6 +263,12 @@ gulp.task('check', function(){
 });
 
 gulp.task('default', ['clean'], function () {
+    watch = true;
+    gulp.start('build');
+});
+
+gulp.task('justbuild', ['clean'], function () {
+    watch = false;
     gulp.start('build');
 });
 

@@ -15,3 +15,5 @@ au cours du hackaton ["Hackgriculture"](http://www.nantesvillecomestible.org/hac
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Le reste de la journée a été résumé sur [Storify](https://storify.com/Libertic/restitution-hackgriculture) par [nantesvillecomestible.org](http://nantesvillecomestible.org)
+
+<div class="storify"><iframe src="//storify.com/Libertic/restitution-hackgriculture/embed?border=false&template=grid" width="100%" height="750" frameborder="no" allowtransparency="true"></iframe><script src="//storify.com/Libertic/restitution-hackgriculture.js?border=false&template=grid"></script><noscript>[<a href="//storify.com/Libertic/restitution-hackgriculture" target="_blank">View the story "Restitution Hackgriculture" on Storify</a>]</noscript></div>
