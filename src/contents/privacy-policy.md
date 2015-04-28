@@ -141,12 +141,6 @@ If at any time you would like to unsubscribe from receiving future emails, you c
 
 and we will promptly remove you from ALL correspondence.
 
-#### Credits
-
-- Icon (logotype) made by [Freepik](http://www.flaticon.com/authors/freepik) from [www.flaticon.com](http://www.flaticon.com) is licensed by [CC BY 3.0](http://creativecommons.org/licenses/by/3.0).
-- Social Icons from [www.flaticon.com](http://www.flaticon.com) is licensed by [CC BY 3.0](http://creativecommons.org/licenses/by/3.0).
-- Background image (Vigneto del Muscadet a Remouillé) made by [Cyril5555](http://commons.wikimedia.org/wiki/User:Cyril5555) from [www.it.wikipedia.org](http://it.wikipedia.org/wiki/Muscadet#/media/File:Vigne_muscadet_2.jpg) is licensed by [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-
 #### Contacting Us
 
 If there are any questions regarding this privacy policy you may contact us using the information below.
