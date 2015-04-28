@@ -15,6 +15,7 @@ tags: meet us
 
 Our comitment: All resources we deal with and services we build must remain free and open, forever.
 
+
 ## The Working Group
 
 - Annaïg Denis : communication, relations publiques ([Github](https://github.com/adenis-tis), [Twitter](https://twitter.com/scaranaik))
@@ -25,7 +26,7 @@ Our comitment: All resources we deal with and services we build must remain free
 - Ronan Guilloux : développements, animation du groupe, gestion de projet ([Github](https://github.com/ronanguilloux), [Twitter](https://twitter.com/arno_u_loginlux))
 - Yannick Lebras : relations vignerons et syndicats pro ([Github](https://github.com/verlectric))
 - Pierre Slamich: partenariat avec [OpenFoodFacts](http://openfoodfacts.org) ([Twitter](https://twitter.com/teolemon))
-- Davide Usai: modélisation sémantique ([Viadeo](http://www.viadeo.com/fr/profile/davideusai))
+- Davide Usai: modélisation sémantique ([Github](https://github.com/davideusai))
 
 
 ## We meet once a month, in a wine bar
@@ -36,6 +37,7 @@ Our comitment: All resources we deal with and services we build must remain free
 - The fourth meeting take place on April 28th 2015 during the ['Nantes Ville Comestible' launch event & projects awards ceremony](http://www.nantesvillecomestible.org/lancement-officiel-de-nantes-ville-comestible-et-remise-des-prix-hackgriculture-le-280415/)
 
 __To be kept up to date about our next live/online meetings__, just [sign up and join us on Google Groups](https://groups.google.com/forum/#!forum/openwines). You're very welcome!
+
 
 ## Social
 
@@ -48,6 +50,7 @@ __To be kept up to date about our next live/online meetings__, just [sign up and
 - [Privacy Policy](http://openwines.eu/privacy-policy.html)
 
 Some of us speak fluently in english, italian and french: just ping us!
+
 
 ## Let's have a drink together!
 
