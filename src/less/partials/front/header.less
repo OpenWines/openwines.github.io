@@ -20,19 +20,24 @@ header {
                 color: @ow-green;
                 font-size: 2.2em;
                 position: absolute;
-                top: 10px;
+                top: 12px;
                 left: 90px;
                 z-index: 2000;
+                font-family: @font-family-ow;
                 i {
                     > span {
                         font-size: 0.7em;
+                        font-weight: 200;
+                        > span {
+                            font-weight: 400;
+                        }
                     }
                 }
             }
             small {
                 position: absolute;
-                top: 38px;
-                left: 90px;
+                top: 40px;
+                left: 92px;
                 width: 320px;
                 font-weight: 300;
                 color: @ow-gray;
@@ -89,7 +94,7 @@ header {
         .navbar-default {
             .navbar-brand {
                 small {
-                    font-size: 0.6em;
+                    font-size: 0.8em;
                 }
             }
             .nav {
