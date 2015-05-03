@@ -7,8 +7,8 @@ description: "Open-Data, for vineyards, winegrowers and wines"
     <div class="col-md-offset-2 col-md-8">
         <div class="well text-center">
             <h2>What is OpenWines?</h2>
-            <p>Our primary goal is to gather and share datasets of genuine open-data licensed resources about wines.</p>
-            <p>Our secondary goal is to deliver nice data visualizations and mapping about wines, in various regions of the world.</p>
+            <p>We gather and share genuine open-data resources about wines.</p>
+            <p>We publish maps & datavisualizations about wines.</p>
             <p class="lead">Work in progress!</p>
             <a href="mailto:hello@openwines.eu" class="btn btn-default">Contact: hello@openwines.eu</a>
         </div>
