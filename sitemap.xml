@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>http://openwines.eu/credits.html</loc>
+<<<<<<< HEAD
         <lastmod>2015-05-03T16:34:14.000Z</lastmod>
     </url>
     <url>
@@ -39,5 +40,44 @@
     <url>
         <loc>http://openwines.eu/posts/press-releases.html</loc>
         <lastmod>2015-05-03T16:34:14.000Z</lastmod>
+=======
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/data-models.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/datasets.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/license.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/meet-us.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/meetings-minutes.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/privacy-policy.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/posts/hackgriculture-2015.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://openwines.eu/posts/press-releases.html</loc>
+        <lastmod>2015-05-05T19:29:34.000Z</lastmod>
+>>>>>>> Fix text for mobile
     </url>
 </urlset>

@@ -149,15 +149,33 @@ article {
 @media  (max-width: @screen-xs-max) {
     body {
         margin-bottom: 0;
+        h1 {
+            margin-top: 20px;
+        }
+        // Home Page
         &.background {
             background: @ow-red url(../images/background-xs.jpg) no-repeat center fixed;
             -webkit-background-size: cover;
             background-size: cover;
+            .well {
+                h2 {
+                    margin-top: 0;
+                }
+            }
         }
         .affix {
             left: inherit;
             right: 15px;
             bottom: 55px;
+        }
+        // Page content
+        section {
+            padding-bottom: 20px;
+            article {
+                ul {
+                    padding-left: 12px;
+                }
+            }
         }
     }
 }
