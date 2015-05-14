@@ -2,6 +2,16 @@
 
     // Loading homepage
     $(window).load(function() {
+
+        var translations = ['fr'];
+        var language = window.navigator.userLanguage || window.navigator.language;
+        if(!docCookies.getItem("preferred-lang")
+            && window.location.pathname == '/'
+            && 0 >= translations.indexOf(language)) {
+            docCookies.setItem("preferred-lang", language);
+            window.location.href = "/" + language;
+        }
+
         var $homeLoad = $('body.background .se-pre-con');
 
         if ($homeLoad.length) {

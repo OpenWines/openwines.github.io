@@ -8,7 +8,7 @@ description: "Open-Data, for vineyards, winegrowers and wines"
         <div class="well text-center">
             <h2>What is OpenWines?</h2>
             <p>We gather and share genuine open-data resources about wines.</p>
-            <p>We publish maps & datavisualizations about wines.</p>
+            <p>We also publish maps & datavisualizations about wines.</p>
             <p class="lead">Work in progress!</p>
             <a href="mailto:hello@openwines.eu" class="btn btn-default">Contact: hello@openwines.eu</a>
         </div>
@@ -27,8 +27,8 @@ description: "Open-Data, for vineyards, winegrowers and wines"
             <p>We need data, with your genuine permissions to share.</p>
             <p>Send your materials (csv, xls., json, etc) to:</p>
             <a href="mailto:data@openwines.eu" class="btn btn-default btn-sm">data@openwines.eu</a>
-            <p>Any raw data is accepted. All shared data will be reditributed here with a "Share Alike" agreement: We are thinking about the opportunity of the [Open Database License](http://en.wikipedia.org/wiki/Open_Database_License).</p>
-            <p>[Please help us answering 6 little questions about the best open-data license choice we should do](http://openwines.eu/licence/#help-us-choose-the-best-open-data-license-for-openwines-)</p>
+            <p>Any raw data is accepted. All shared data will be reditributed here with a "Share Alike" 
+            agreement, using a simple license agreement: the [Open Database License](http://en.wikipedia.org/wiki/Open_Database_License).</p>
         </div>
     </div>
 </div>
