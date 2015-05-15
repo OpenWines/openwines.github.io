@@ -19,6 +19,19 @@
         }
     });
 
+    // Background homepage
+    switch (window.location.pathname) {
+        case "/":
+            $('body').addClass('background');
+        break;
+        case "/fr/":
+            $('body').addClass('background');
+        break;
+        case "/it/":
+            $('body').addClass('background');
+        break;
+    }
+
     // BackToTop
     if ( ($(window).height() + 100) < $(document).height() ) {
         $('#top-link-block').removeClass('hidden').affix({
@@ -33,18 +46,5 @@
     $('ul.nav a').filter(function() {
         return this.href == url;
     }).parent().addClass('active');
-
-    // Background homepage
-    switch (window.location.pathname) {
-        case "/":
-            $('body').addClass('background');
-        break;
-        case "/fr/":
-            $('body').addClass('background lang-fr');
-        break;
-        case "/it/":
-            $('body').addClass('background lang-it');
-        break;
-    }
 
 } )( jQuery );
