@@ -36,8 +36,15 @@
 
     // Background homepage
     switch (window.location.pathname) {
-    case '/':
-        $('body').addClass('background')
+        case "/":
+            $('body').addClass('background');
+        break;
+        case "/fr/":
+            $('body').addClass('background lang-fr');
+        break;
+        case "/it/":
+            $('body').addClass('background lang-it');
+        break;
     }
 
 } )( jQuery );
