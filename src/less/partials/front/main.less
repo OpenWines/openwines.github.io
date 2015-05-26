@@ -51,6 +51,10 @@ body {
             border: none;
             outline: none;
         }
+        .slideshare-about-us {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
     }
     #twitter-widget-0 {
         width: 100% !important;
@@ -139,10 +143,15 @@ article {
 }
 @media  (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
     body {
+        // Home Page
         &.background {
             background: @ow-red url(../images/background-sm.jpg) no-repeat center fixed;
             -webkit-background-size: cover;
             background-size: cover;
+        }
+        // Back To Top
+        .affix {
+            bottom: 20px;
         }
     }
 }
@@ -163,10 +172,11 @@ article {
                 }
             }
         }
+        // Back To Top
         .affix {
             left: inherit;
             right: 15px;
-            bottom: 55px;
+            bottom: 50px;
         }
         // Page content
         section {

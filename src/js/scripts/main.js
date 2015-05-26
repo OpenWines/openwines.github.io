@@ -22,7 +22,7 @@
     // Responsive SlideShare slides
     var $slideShare = $('iframe[src*="slideshare.net"]');
     if ($slideShare.length) {
-        $slideShare.wrap('<div class="embed-responsive embed-responsive-16by9"></div>');
+        $slideShare.wrap('<div class="embed-responsive embed-responsive-16by9 slideshare-about-us"></div>');
         $slideShare.addClass('embed-responsive-item');
     }
 

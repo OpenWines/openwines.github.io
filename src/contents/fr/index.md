@@ -40,12 +40,12 @@ description: "L'Open-Data du vin, de la vigne et des vignerons"
 
 <div class="row">
     <div class="col-md-12">
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/4FsHhM4tuRtoaz" width="1170" height="602" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border-radius:4px; border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+    </div>
+    <div class="col-md-12">
         <blockquote class="twitter-tweet" lang="fr"><p>Our first open-data web mapping about wines: &#10;<a href="https://t.co/DPQdQNsINi">https://t.co/DPQdQNsINi</a>&#10;Vignoble Nantais, Loire (FR): 7 AOCs+vine plots <a href="http://t.co/UBgC10nXAN">pic.twitter.com/UBgC10nXAN</a></p>&mdash; OpenWines.eu (@openwines) <a href="https://twitter.com/openwines/status/580138795321937920">23 Mars 2015</a></blockquote>
 
         <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-    <div class="col-md-12">
-        <iframe src="//www.slideshare.net/slideshow/embed_code/key/4FsHhM4tuRtoaz" width="1170" height="602" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border-radius:4px; border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
     </div>
 
 </div>
