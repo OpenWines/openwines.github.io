@@ -1,10 +1,10 @@
 ---
-title: "Data models"
-description: "Data Models in OpenWines"
+title: "Data formats"
+description: "Data Formats in OpenWines"
 tags: data, work-in-progress
 ---
 
-Being a semantic data project, OpenWines needed to choose a model to describe the open data it exposes.
+Being a semantic data project, OpenWines needed to choose a/more format(s) to handle the open data it exposes.
 
 Semantic Data Models are currently represented using various data schemas, such as RDFa, Microformats, Microdata, RDF/JSON or JSON-LD.
 
