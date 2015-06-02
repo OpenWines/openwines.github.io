@@ -54,6 +54,13 @@
         return this.href == url;
     }).parent().addClass('active');
 
+    // Add class img-responsive
+    var $imgResponsive = $('article p img');
+
+    if ($imgResponsive.length) {
+        $imgResponsive.addClass("thumbnail img-responsive");
+    }
+
     // Add class to table elements
     var $tableClass = $('article table');
 
