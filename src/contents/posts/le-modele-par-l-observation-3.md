@@ -28,7 +28,7 @@ Une représentation graphique d’un modèle simplifiée peut être la suivante�
 ![mpo2.png](/assets/images/posts/mpo2.png)
 
 | Libellé       | > Vmin (g/l)  | <= Vmax (g/l) |
-| ------------- |:-------------:| -------------:|
+| ------------- |:-------------:|:-------------:|
 | Sec           | -             |     4         |   
 | Demi-sec      | 4             |     12        |
 | Demi-doux     | 12            |     45        |
@@ -46,8 +46,8 @@ Une représentation graphique peut-être la suivante :
 
 ![mpo3.png](/assets/images/posts/mpo3.png)
 
-| Libellé                   | => Vmin (g/l)  | < Vmax (g/l) |
-| ------------------------- |:-------------:| -------------:|
+| Libellé                   | => Vmin (g/l) | < Vmax (g/l)  |
+| ------------------------- |:-------------:|:-------------:|
 | Tranquille                | -             | 3             |   
 | Pétillant ou Tranquille   | 3             | 4             |
 | pétillant                 | 4             | 5             |
@@ -61,15 +61,17 @@ Juste pour commencer, je me fixe comme objectif l’italien d’Italie et l’an
 
 __Teneur en sucre__
 
-| fr-FR     | sec       | demi-dec      | demi-doux     | doux  |
+|           |           |               |               |       |
 | --------- | --------- | ------------- | ------------- | ----- |
+| fr-FR     | sec       | demi-dec      | demi-doux     | doux  |
 | it-IT     | asciutto  | abboccato     | amabile       | dolce |
 | en-GB     | dry       | medium dry    | medium        | sweet |
 
 __Teneur en dioxyde de carbone__
 
+|           |                       |              |
+| --------- | --------------------- | ------------ |
 | fr-FR     | tranquille            | pétillant    |
-| --------- | --------- | --------- | ------------ |
 | it-IT     | tranquillo (o fermo)  | frizzante    |
 | en-UK     | still                 | sparkling    |
 
@@ -83,3 +85,13 @@ __Observations :__
 - Il existe un certain nombre de synonymes pour les appellations des intervalles. Pour une source de donnée, il existe probablement un terme par défaut et d’autres qui sont d’usage
 - Je me rends compte qu’il n’est pas possible d’avoir une teneur en dioxyde de carbone supérieure à 5 g/l. Une question de culture générale est : est-ce que après ce seuil il ne s’agit plus de vin et cela devient un autre produit où celle-ci est la concentration la plus grande que l’on peut absorber ? Il faut que je demande à mes collègues médecins
 - Il n’est pas important de résoudre ces ambiguïtés pour pouvoir poursuivre notre travail d’analyse. Au fait, il n’y a rien de bloquant car on est pour le moment sur un détail d’un dictionnaire.
+
+<hr>
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="/posts/le-modele-par-l-observation-2.html"><span class="glyphicon glyphicon-menu-left"></span> Précédent</a></li>
+    <li class="next"><a href="/posts/le-modele-par-l-observation-4.html">Suivant <span class="glyphicon glyphicon-menu-right"></span></a></li>
+  </ul>
+</nav>
+
+

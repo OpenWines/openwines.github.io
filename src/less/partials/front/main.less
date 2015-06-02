@@ -96,7 +96,7 @@ h1 {
     font-weight: bold;
 }
 
-// Style list
+// Style list, pager, table
 article {
     ul {
         li {
@@ -112,6 +112,22 @@ article {
                 left: -12px;
             }
         }
+    }
+    .pager {
+        > li {
+            &:before {
+                content: none;
+            }
+            > a {
+                .glyphicon {
+                    font-size: 0.7em;
+                }
+            }
+        }
+    }
+    .table > thead > tr > td,
+    .table > thead > tr > th {
+        border-bottom-color: @gray-light;
     }
 }
 

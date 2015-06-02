@@ -34,4 +34,14 @@ Un des objectifs du modèle finale est d’être exhaustif, un autre est celui d
 Nous aborderons sans doute des concepts que nous ne maitrisons pas, ou pas très bien, sur lesquels il faudra surement y revenir. Compte tenu de l’organisation de ce projet nous procéderons par séances de travail répétitives. Chaque séance sera donc précédée de la date et d’un titre et du contributeur. Cette organisation a au moins deux avantages : d’une part il permet à chacun de contribuer à sa manière à l’évolution du modèle par l’observation selon ses envies et son temps, d’autre part le document garde l’historique de nos évolutions. L’inconvénient c’est qu’il ne présente pas de manière directe l’état de l’analyse.
 Ceci est pour le moment surtout un document à usage interne. Si l’on souhaite un document destiné à des utilisateurs finaux d’OpenWines, il faudra réfléchir à un document classiquement organisé à chapitres thématiques.
 
+<hr>
+<nav>
+  <ul class="pager">
+    <li class="next"><a href="/posts/le-modele-par-l-observation-1.html">Suivant <span class="glyphicon glyphicon-menu-right"></span></a></li>
+  </ul>
+</nav>
+
+
+
+
 

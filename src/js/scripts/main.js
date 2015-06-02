@@ -54,4 +54,12 @@
         return this.href == url;
     }).parent().addClass('active');
 
+    // Add class to table elements
+    var $tableClass = $('article table');
+
+    if ($tableClass.length) {
+        $tableClass.addClass('table table-bordered table-condensed table-striped').wrap("<div class='table-responsive'></div>");
+        $('th:empty').hide('thead');
+    }
+
 } )( jQuery );

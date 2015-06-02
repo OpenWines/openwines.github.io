@@ -32,53 +32,20 @@ Il y a un certain nombre d’informations de différentes natures qui sont trans
 
 Parcourons l’ensemble du haut vers le bas :
 
-__La localisation géographique de production__
-
-Produit de France
-
-__Année de production__ (appelé millésime sous certaines conditions)
-
-1989
-
-__Désignation fantaisiste du lieu de production__
-
-Château La Tomaze
-
-__Une représentation graphique__
-
-Le beau château
-
-__Désignation du produit__
-
-Coteaux du Layon Rablay
-
-__Désignation de l’appellation d’origine__
-
-Appellation Coteaux du Layon Rablay Controlée
-
-__Information supplémentaire concernant la logistique de production__
-
-Mis en bouteille au château 
-
-__Raison sociale et adresse__
-
-Vignoble Lecointre 49380 Champ sur Layon – France
-
-__Titre alcoométrique__
-
-13% vol.
-
-__Volume du produit contenu__
-
-750 ml
-
-__Information non identifiée__
-
-LCR80
-
-__Information rappelant la présence de sulfites dans une concentration supérieure à 10 mg/l__
-
-Contains sulfites
+| Informations                                                                                  | Observations                                      |
+| --------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| **La localisation géographique de production**                                                | Produit de France                                 |  
+| **Année de production**                                                                       | 1989                                              |
+| **Désignation fantaisiste du lieu de production**                                             | Château La Tomaze                                 |
+| **Une représentation graphique**                                                              | Le beau château                                   |
+| **Désignation du produit**                                                                    | Coteaux du Layon Rablay                           |
+| **Désignation de l’appellation d’origine**                                                    | Appellation Coteaux du Layon Rablay Controlée     |
+| **Information supplémentaire concernant la logistique de production**                         | Mis en bouteille au château                       |
+| **Raison sociale et adresse**                                                                 | Vignoble Lecointre 49380 Champ sur Layon – France |
+| **Titre alcoométrique**                                                                       | 13% vol.                                          |
+| **Volume du produit contenu**                                                                 | 750 ml                                            |
+| **Information non identifiée**                                                                | LCR80                                             |
+| **Information rappelant la présence de sulfites dans une concentration supérieure à 10 mg/l** | Contains sulfites                                 |
 
 J’arrête ici cette séance.
 
@@ -87,3 +54,14 @@ Observations :
 - L’on retrouve la notion d’appellation d’origine
 - L’information comme quoi ce vin est produit en France nous laisse deviner que cela est important dans un contexte d’import/export. Pour des raisons d’interopérabilité c’est probablement une des codifications ISO qui est utilisée pour identifier la zone géographique
 - La désignation du produit rappelle des mots de l’appellation d’origine. Il me semble d’avoir lu quelque part que cela est obligatoire par la législateur européen
+
+<hr>
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="/posts/le-modele-par-l-observation-1.html"><span class="glyphicon glyphicon-menu-left"></span> Précédent</a></li>
+    <li class="next"><a href="/posts/le-modele-par-l-observation-3.html">Suivant <span class="glyphicon glyphicon-menu-right"></span></a></li>
+  </ul>
+</nav>
+
+
+

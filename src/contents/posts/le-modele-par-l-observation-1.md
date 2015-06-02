@@ -90,4 +90,15 @@ Deux  dictionnaires qui contiennent une liste de valeurs possibles. Ces dictionn
 - Une valeur min, qui peut être vide
 - Valeur max, qui peut être vide
 
+<hr>
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="/posts/le-modele-par-l-observation-0.html"><span class="glyphicon glyphicon-menu-left"></span> Précédent</a></li>
+    <li class="next"><a href="/posts/le-modele-par-l-observation-2.html">Suivant <span class="glyphicon glyphicon-menu-right"></span></a></li>
+  </ul>
+</nav>
+
+
+
+
 

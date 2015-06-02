@@ -68,3 +68,12 @@ Ressources
 - [2] Site web de l’initiative OpenWines, http://openwines.eu/
 - [3] Organisation International des Vignes et du Vin, http://www.oiv.int/
 - [4] Commission Regulation 607/2009, http://eur-lex.europa.eu/legal-content/FR/ALL/?uri=CELEX:32009R0607
+
+<hr>
+<nav>
+  <ul class="pager">
+    <li class="previous"><a href="/posts/le-modele-par-l-observation-3.html"><span class="glyphicon glyphicon-menu-left"></span> Précédent</a></li>
+  </ul>
+</nav>
+
+
