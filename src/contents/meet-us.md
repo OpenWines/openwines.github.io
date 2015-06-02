@@ -16,7 +16,7 @@ tags: meet us
 Our comitment: All resources we deal with and services we build must remain free and open, forever.
 
 
-## The Working Group
+## The (very open) Working Group
 
 - Annaïg Denis : communication, relations publiques ([Github](https://github.com/adenis-tis), [Twitter](https://twitter.com/scaranaik))
 - Anthony Faucogney : relation startups ([Github](https://github.com/afaucogney), [Twitter](https://twitter.com/afaucogney]))
@@ -26,17 +26,22 @@ Our comitment: All resources we deal with and services we build must remain free
 - Ronan Guilloux : développements, animation du groupe, gestion de projet ([Github](https://github.com/ronanguilloux), [Twitter](https://twitter.com/arno_u_loginlux))
 - Yannick Lebras : relations vignerons et syndicats pro ([Github](https://github.com/verlectric))
 - Pierre Slamich: partenariat avec [OpenFoodFacts](http://openfoodfacts.org) ([Twitter](https://twitter.com/teolemon))
-- Davide Usai: modélisation sémantique ([Github](https://github.com/davideusai))
+- Davide Usai: [modélisation sémantique](http://openwines.eu/posts/le-modele-par-l-observation-0.html) ([Github](https://github.com/davideusai))
 
+
+##  "I wish to contribute!"
+
+- __To be kept up to date about our next live/online meetings__, just [sign up and join us on Google Groups](https://groups.google.com/forum/#!forum/openwines). __You're very welcome!__
+- Have a look at what we are doing now, [here on Trello](https://trello.com/openwines), and be part of it.
+- Have data to share or a particular project to tell us about? [Let's talk about that!](mailto:hello@openwines.eu)
 
 ## We meet once a month, in a wine bar
 
 - The group first met in real life on March 21th 2015 during the '[hackgriculture](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/)' _hackaton_ that took place in Nantes, on March 21th 2015 (see [related blog post](/hackgriculture-2015/)). All are members/contributors of the [OpenWines Organization group on Github](https://github.com/OpenWines).
 - The second meeting took place on April 3rd 2015 at [Les Carafés](https://plus.google.com/112674063952285158976/about?gl=fr&hl=fr) (Wine bar, Nantes)
 - The third meeting took place on April 24th 2015 at [Le Verre Bouteille](https://plus.google.com/104430419707063630055/about?gl=fr&hl=fr) (Wine boutique and bar, Nantes)
-- The fourth meeting take place on April 28th 2015 during the ['Nantes Ville Comestible' launch event & projects awards ceremony](http://www.nantesvillecomestible.org/lancement-officiel-de-nantes-ville-comestible-et-remise-des-prix-hackgriculture-le-280415/)
-
-__To be kept up to date about our next live/online meetings__, just [sign up and join us on Google Groups](https://groups.google.com/forum/#!forum/openwines). You're very welcome!
+- The fourth meeting took place on April 28th 2015 during the ['Nantes Ville Comestible' launch event & projects awards ceremony](http://www.nantesvillecomestible.org/lancement-officiel-de-nantes-ville-comestible-et-remise-des-prix-hackgriculture-le-280415/)
+- The fifth meeting took place on June 2nd 2015 at [Le Verre Bouteille](https://plus.google.com/104430419707063630055/about?gl=fr&hl=fr) (Wine boutique and bar, Nantes). Definitely a great place to meet.
 
 
 ## Social
