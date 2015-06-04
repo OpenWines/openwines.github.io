@@ -4,7 +4,7 @@ description: Contexte, objectif et méthode
 tags: data, data models
 ---
 
-_Cet article est le premier d'une suite d'observations réalisées par Davide Usaï, où il détaille le processus 
+_Cet article est le premier d'une suite d'observations réalisées par Davide Usai, où il détaille le processus 
 par lequel ce projet propose une définition sémantique du vin, afin d'en tirer un modèle informatique._
 
 - __[Contexte, objectif et méthode](le-modele-par-l-observation-0.html)__
