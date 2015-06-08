@@ -29,13 +29,16 @@ Our comitment: All resources we deal with and services we build must remain free
 - Davide Usai: [modélisation sémantique](http://openwines.eu/posts/le-modele-par-l-observation-0.html) ([Github](https://github.com/davideusai))
 
 
-##  "I wish to contribute!"
+##  "I wish to join/contribute!"
+
+Meet us online:
 
 - __To be kept up to date about our next live/online meetings__, just [sign up and join us on Google Groups](https://groups.google.com/forum/#!forum/openwines). __You're very welcome!__
+- __To just chat about OpenWines__, join us on [Slack](https://openwines.slack.com) - get your [free invitation here](https://openwines-slackin.herokuapp.com/)
 - Have a look at what we are doing now, [here on Trello](https://trello.com/openwines), and be part of it.
 - Have data to share or a particular project to tell us about? [Let's talk about that!](mailto:hello@openwines.eu)
 
-## We meet once a month, in a wine bar
+## We meet IRL, once a month, in a wine bar
 
 - The group first met in real life on March 21th 2015 during the '[hackgriculture](http://www.nantesvillecomestible.org/hackgriculture-48h-de-challenge-les-21-et-22-mars-2015/)' _hackaton_ that took place in Nantes, on March 21th 2015 (see [related blog post](/hackgriculture-2015/)). All are members/contributors of the [OpenWines Organization group on Github](https://github.com/OpenWines).
 - The second meeting took place on April 3rd 2015 at [Les Carafés](https://plus.google.com/112674063952285158976/about?gl=fr&hl=fr) (Wine bar, Nantes)
@@ -46,7 +49,10 @@ Our comitment: All resources we deal with and services we build must remain free
 
 ## Social
 
-- Discussions: [Google Group](https://groups.google.com/forum/#!forum/openwines): Anyone can ask to join our working group!
+Anyone can ask to join our discussions.
+
+- General informations, announcements: [Google Group](https://groups.google.com/forum/#!forum/openwines): 
+- Chat: [Slack](https://openwines.slack.com) - get your [free invitation here](https://openwines-slackin.herokuapp.com/) 
 - Twitter: [@openwines](https://twitter.com/openwines)
 - Organization: [Trello](https://trello.com/openwines)
 - Open Source: [Github](https://github.com/openwines)
