@@ -5,6 +5,50 @@ tags: work-in-progress
 ---
 
 
+## Réunion 22 septembre 2015 (Skype confcall)
+
+Merci à Anthony d'avoir lancé l'idée d'une confcall pour faire le point sur le projet. Le rdv avait été diffusé sur Google Groups. Le prochain rdv fera l'objet d'une annonce à part.
+
+### Présents
+
+- Davide U.
+- Ronan G. (rapporteur)
+- Anthony F.
+- Thomas G.
+
+
+### Ronan (bilan des derniers mois)
+
+- rencontre avec le syndicat de défense d'AOC des Pays de la Loire, nous avons convenu de nous revoir (d'ici fin 2015 ?) pour évaluer ensemble quelles données chez eux pourraient être libérées
+- les chantiers sur la modélisation (cf. ci-dessous) : on arrive à des brouillons de modèles pour le vin, le cépage, l'appellation et les vignerons. C'est un peu la condition pour commencer à produire des jeux de données qui suivent une modélisation minimale.
+
+### Thomas (SIG, infocartographie)
+
+Pour Chéméré, on pourrait
+
+- Réaliser un calage sur les cartes proposées par les Archives Départemental. Pour cela il faut il prendre des photos des plans aux Archives (suggestion émise par Claire de LiberTIC). Thomas pourrait passer aux Archives, mais aucune garantie
+- Faire une fiche sur le Gros Plant sur Wikipedia (manquante, dixit Davide)
+- Faire des contours de parcelles, mais c’est un peu un problème juridique car il n’y a qu’un seul exploitant, et cela aurait pour effet de révéler son patrimoine personnel, ce qui n’est pas autorisé (cf. l’anonymisation des données)
+- Rencontrer l’unique exploitant de Chéméré et lui exposer nos modèles et réflexions, pour validation
+
+Thomas relance l'idée d'une demi-journée technique sur le thème de la carto et des sets d'open-data existants. Ronan lui propose de partager en interne l'accès à une instance PostgreSQL pour que chacun puisse travailler (contribuer, nettoyer, qualifier, etc.) sur des données, même à l'état de brouillon.
+
+### Davide (sur la modélisation)
+
+- Après m'être occupé de la terminologie sur les bouteilles et des cépagnes, je compte m'occuper des appellations.
+- Je définis mes modèles sémantiques dans un logiciel adhoc, [Sparx System](http://www.sparxsystems.fr/) mais je peux préparer un export dans un format ouvert compatible [modelio.org](https://www.modelio.org)
+- Je suis en relation avec un éditeur de [PIM](https://fr.wikipedia.org/wiki/Product_information_management) (non open-source) présent dans les Pays de la Loire, travaillant avec les grandes surfaces, qui pourrait nous partager sa nomenclature sur le domaine du vin.
+- Davide est par ailleurs motivé pour exporter l'idée de Chéméré en Italie (en Sardaigne ?!). Ronan est méga partant. Y'a plus qu'à trouver des sous pour le billet d'avion.
+
+### Anthony (qui part participer au VinoCamp à Londre)
+
+Anthony représentera notre groupe à Londres, Ronan lui donne les clefs du compte Twitter s'il souhaite communiquer pour OpenWines durant l'évènement.
+Anthony propose de refaire un point projet d'ici un mois, Ronan lance l'info sur GoogleGroups
+
+Ronan a annoncé la participation d'Anthony à Vinocamp London [ici sur Twitter](https://twitter.com/openwines) et [là sur le forum de vinocamp](http://vinocamp.fr/forums/sujet/open-data-for-wines-vinocamp/)
+
+
+
 ## Réunion du 24 avril 2015 à Nantes (au Verre Bouteille)
 
 ### Présents :
