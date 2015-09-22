@@ -19,8 +19,11 @@ Merci à Anthony d'avoir lancé l'idée d'une confcall pour faire le point sur l
 
 ### Ronan (bilan des derniers mois)
 
-- rencontre avec le syndicat de défense d'AOC des Pays de la Loire, nous avons convenu de nous revoir (d'ici fin 2015 ?) pour évaluer ensemble quelles données chez eux pourraient être libérées
-- les chantiers sur la modélisation (cf. ci-dessous) : on arrive à des brouillons de modèles pour le vin, le cépage, l'appellation et les vignerons. C'est un peu la condition pour commencer à produire des jeux de données qui suivent une modélisation minimale.
+- rencontre avec le syndicat de défense d’AOC des Pays de la Loire cet été, à l'initiative de Yannick. Nous avons convenu de nous revoir (d’ici fin 2015 ?) pour évaluer ensemble quelles données chez eux pourraient être libérées
+- les chantiers sur la modélisation (cf. ci-dessous) : on arrive à des brouillons de modèles pour le vin, le cépage, l’appellation et les vignerons. C’est un peu la condition pour commencer à produire des jeux de données qui suivent une modélisation minimale.
+- Contacts en cours avec OpenFoodFact (cf. le proto d'OCR), contacts réguliers avec LiberTIC, et prochaine participation de Thomas, Ronan et Davide à l'operation-libre.org à Chéméré le week-end prochain.
+
+Conclusion : ca avance doucement, c'est un projet de longue haleine, donc pas un rythme de startup. Chacun donne de son temps selon ses disponibilités.
 
 ### Thomas (SIG, infocartographie)
 
