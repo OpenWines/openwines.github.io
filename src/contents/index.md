@@ -17,10 +17,12 @@ description: "Open-Data, for vineyards, winegrowers and wines"
 <div class="home-bottom">
     <div class="row">
         <div class="col-md-6">
-            <h3>Are you a Wine Startup?</h3>
-            <p class="lead">No, we are a non-profit organization.</p>
-            <p>We started OpenWines in March, 2015: OpenWines is not a startup or a commercial initiative: we are building an [open-data](http://opendatahandbook.org/en/what-is-open-data/index.html#what-is-open) collaborative project about wines, vineyars & winegrowers.</p>
-            <p>'Open' means: free, available, reusable, redistribuable, interoperable, and open to contributions. Not only the data are free, but also the tools, softwares, schemas, design, illustration and documentation that come with them. This will remain as is, for ever, thanks to [an open-data license](http://en.wikipedia.org/wiki/Open_Database_License).</p>
+            <h3>We are a non-profit organization</h3>
+            <p class="lead">
+            <p>We are building an open-data collaborative project about wines, vineyards, varietals, winegrowers &amp; winemakers.</p>
+            <p>We model and collect wine-related open-data sets. Then we share our work with a simple license agreement: the <a href="http://en.wikipedia.org/wiki/Open_Database_License" target="_blank">Open Database License</a>.</p>
+            <p>Our working group (10+ people) involves IT engineers, geomaticians, standard terminology experts, semantic web supporters, wine industry players, and wine lovers.</p>
+            <p>We also share informations &amp; open-data based common interests with some public administrations, professional organizations and wine startup clusters.</p>
         </div>
         <div class="col-md-6">
             <h3>We need data,<br>and we will share them!</h3>
@@ -28,7 +30,8 @@ description: "Open-Data, for vineyards, winegrowers and wines"
             <p>Send your materials (csv, xls., json, etc) to:</p>
             <a href="mailto:data@openwines.eu" class="btn btn-default btn-sm">data@openwines.eu</a>
             <p>Any raw data is accepted. All shared data will be reditributed here with a "Share Alike" 
-            agreement, using a simple license agreement: the [Open Database License](http://en.wikipedia.org/wiki/Open_Database_License).</p>
+            agreement.
+            <br/>We publish our open-data licensed resources &amp; open-source based tools on http://openwines.eu, and more on dedicated Github, Slack, Twitter, Trello &amp; Google Groups accounts, all open (<a href="/meet-us.html">read more</a>)</p>
         </div>
     </div>
 </div>
