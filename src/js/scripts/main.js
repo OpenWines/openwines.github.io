@@ -4,6 +4,7 @@
     $(window).load(function() {
 
         var translations = ['fr'];
+        /*
         var language = window.navigator.userLanguage || window.navigator.language;
         if(!docCookies.getItem("preferred-lang")
             && window.location.pathname == '/'
@@ -11,7 +12,7 @@
             docCookies.setItem("preferred-lang", language);
             window.location.href = "/" + language;
         }
-
+        */
         var $homeLoad = $('body.background .se-pre-con');
 
         if ($homeLoad.length) {
@@ -68,5 +69,10 @@
         $tableClass.addClass('table table-bordered table-condensed table-striped').wrap("<div class='table-responsive'></div>");
         $('th:empty').hide('thead');
     }
+
+    // Shameless hack
+    $(document.links).filter(function() {
+        return this.hostname != window.location.hostname;
+    }).attr('target', '_blank');
 
 } )( jQuery );
